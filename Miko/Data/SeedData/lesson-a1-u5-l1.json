@@ -1,0 +1,14 @@
+{
+  "key":"a1.u5.l1","orderIndex":0,"titleKey":"lesson.a1.u5.l1.title","kind":"skill","unitKey":"a1.u5",
+  "vocabularyKeys":["vocab.anne","vocab.baba","vocab.aile","vocab.kardes","vocab.abla","vocab.agabey","vocab.var"],
+  "grammarKeys":["grammar.possessive-suffixes"],
+  "exercises":[
+    {"key":"a1.u5.l1.e1","type":"translateWord","orderIndex":0,"promptText":"Переведите на турецкий: Мама","promptKey":"","hintKey":"","correctAnswerText":"Anne","acceptedAnswers":["anne","Anne"],"vocabularyKeys":["vocab.anne"],"payload":null},
+    {"key":"a1.u5.l1.e2","type":"multipleChoice","orderIndex":1,"promptText":"Что значит «Kardeş»?","promptKey":"","hintKey":"","correctAnswerText":"Брат или сестра","acceptedAnswers":["Брат или сестра","брат или сестра"],"vocabularyKeys":["vocab.kardes"],"payload":{"options":["Брат или сестра","Мама","Отец","Друг"],"correctIndex":0}},
+    {"key":"a1.u5.l1.e3","type":"matchPairs","orderIndex":2,"promptText":"Сопоставьте членов семьи:","promptKey":"","hintKey":"","correctAnswerText":"","acceptedAnswers":[],"vocabularyKeys":["vocab.anne","vocab.baba","vocab.kardes","vocab.abla","vocab.agabey"],"payload":{"pairs":[{"source":"Мама","target":"Anne"},{"source":"Папа","target":"Baba"},{"source":"Брат или сестра","target":"Kardeş"},{"source":"Старшая сестра","target":"Abla"},{"source":"Старший брат","target":"Ağabey"}]}},
+    {"key":"a1.u5.l1.e4","type":"fillBlank","orderIndex":3,"promptText":"Заполните пропуск: Bu benim ______. (Это моя семья.)","promptKey":"","hintKey":"","correctAnswerText":"ailem","acceptedAnswers":["ailem","Ailem"],"vocabularyKeys":["vocab.bu","vocab.aile"],"payload":{"template":"Bu benim ____.","blank":"ailem","options":["ailem","annem","babam","arkadaşım"]}},
+    {"key":"a1.u5.l1.e5","type":"translateSentence","orderIndex":4,"promptText":"Переведите: Bu benim annem.","promptKey":"","hintKey":"","correctAnswerText":"Это моя мама.","acceptedAnswers":["Это моя мама","Это моя мама.","Это моя мать","Это моя мать."],"vocabularyKeys":["vocab.bu","vocab.anne"],"payload":null},
+    {"key":"a1.u5.l1.e6","type":"pronunciation","orderIndex":5,"promptText":"Произнесите: Benim ailem","promptKey":"","hintKey":"be-nim a-i-lem","correctAnswerText":"Benim ailem","acceptedAnswers":["Benim ailem","benim ailem"],"vocabularyKeys":["vocab.aile"],"payload":null},
+    {"key":"a1.u5.l1.e7","type":"vocabularyReview","orderIndex":6,"promptText":"Повторите слова о семье...","promptKey":"","hintKey":"","correctAnswerText":"","acceptedAnswers":[],"vocabularyKeys":["vocab.anne","vocab.baba","vocab.aile","vocab.kardes","vocab.abla","vocab.agabey"],"payload":null}
+  ]
+}

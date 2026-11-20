@@ -1,0 +1,9 @@
+{
+  "key": "a1.u7",
+  "orderIndex": 6,
+  "titleKey": "unit.a1.u7.title",
+  "theme": "city-directions",
+  "summaryKey": "unit.a1.u7.summary",
+  "levelKey": "a1",
+  "lessonKeys": ["a1.u7.l1", "a1.u7.l2"]
+}

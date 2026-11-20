@@ -1,0 +1,214 @@
+{
+  "key": "a2.u5.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a2.u5.l2.title",
+  "kind": "skill",
+  "unitKey": "a2.u5",
+  "vocabularyKeys": [
+    "vocab.gomlek",
+    "vocab.pantolon",
+    "vocab.ayakkabi",
+    "vocab.ceket",
+    "vocab.elbise",
+    "vocab.sapka",
+    "vocab.corap",
+    "vocab.tisort",
+    "vocab.etek",
+    "vocab.giymek"
+  ],
+  "grammarKeys": [
+    "grammar.plural-suffix"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u5.l2.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Ayakkabı»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Обувь",
+      "acceptedAnswers": [
+        "Обувь",
+        "обувь"
+      ],
+      "vocabularyKeys": [
+        "vocab.ayakkabi"
+      ],
+      "payload": {
+        "options": [
+          "Обувь",
+          "Куртка",
+          "Платье",
+          "Шапка"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u5.l2.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: платье",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Elbise",
+      "acceptedAnswers": [
+        "Elbise",
+        "elbise"
+      ],
+      "vocabularyKeys": [
+        "vocab.elbise"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u5.l2.e3",
+      "type": "matchPairs",
+      "orderIndex": 2,
+      "promptText": "Сопоставьте одежду:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.gomlek",
+        "vocab.pantolon",
+        "vocab.tisort",
+        "vocab.etek"
+      ],
+      "payload": {
+        "pairs": [
+          {
+            "source": "Рубашка",
+            "target": "Gömlek"
+          },
+          {
+            "source": "Брюки",
+            "target": "Pantolon"
+          },
+          {
+            "source": "Футболка",
+            "target": "Tişört"
+          },
+          {
+            "source": "Юбка",
+            "target": "Etek"
+          }
+        ]
+      }
+    },
+    {
+      "key": "a2.u5.l2.e4",
+      "type": "fillBlank",
+      "orderIndex": 3,
+      "promptText": "Заполните пропуск: Kışın ____ giyiyorum. (Зимой я ношу куртку.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "ceket",
+      "acceptedAnswers": [
+        "Ceket",
+        "ceket"
+      ],
+      "vocabularyKeys": [
+        "vocab.ceket",
+        "vocab.giymek"
+      ],
+      "payload": {
+        "template": "Kışın ____ giyiyorum.",
+        "blank": "ceket",
+        "options": [
+          "ceket",
+          "tişört",
+          "etek",
+          "şapka"
+        ]
+      }
+    },
+    {
+      "key": "a2.u5.l2.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Gömlekler çok pahalı.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Рубашки очень дорогие.",
+      "acceptedAnswers": [
+        "Рубашки очень дорогие.",
+        "рубашки очень дорогие"
+      ],
+      "vocabularyKeys": [
+        "vocab.gomlek",
+        "vocab.pahali"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u5.l2.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Новую обувь надеваю.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Yeni ayakkabı giyiyorum.",
+      "acceptedAnswers": [
+        "Yeni ayakkabı giyiyorum.",
+        "йени айаккабы гийийорум"
+      ],
+      "vocabularyKeys": [
+        "vocab.ayakkabi",
+        "vocab.giymek"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Yeni",
+          "ayakkabı",
+          "giyiyorum."
+        ],
+        "wordBank": [
+          "giyiyorum.",
+          "Yeni",
+          "ayakkabı",
+          "elbise"
+        ]
+      }
+    },
+    {
+      "key": "a2.u5.l2.e7",
+      "type": "pronunciation",
+      "orderIndex": 6,
+      "promptText": "Произнесите фразу:",
+      "promptKey": "",
+      "hintKey": "bu goem-le-gi de-не-йе-билир ми-им",
+      "correctAnswerText": "Bu gömleği deneyebilir miyim?",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.gomlek"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u5.l2.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова об одежде...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.gomlek",
+        "vocab.pantolon",
+        "vocab.ayakkabi",
+        "vocab.ceket",
+        "vocab.elbise",
+        "vocab.sapka",
+        "vocab.corap",
+        "vocab.tisort",
+        "vocab.etek",
+        "vocab.giymek"
+      ],
+      "payload": null
+    }
+  ]
+}

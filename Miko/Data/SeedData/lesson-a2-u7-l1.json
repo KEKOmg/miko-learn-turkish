@@ -1,0 +1,201 @@
+{
+  "key": "a2.u7.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a2.u7.l1.title",
+  "kind": "skill",
+  "unitKey": "a2.u7",
+  "vocabularyKeys": [
+    "vocab.gezmek",
+    "vocab.calismak",
+    "vocab.ogrenmek",
+    "vocab.yazmak",
+    "vocab.okumak",
+    "vocab.konusmak",
+    "vocab.plan",
+    "vocab.umut",
+    "vocab.belki",
+    "vocab.tabii"
+  ],
+  "grammarKeys": [
+    "grammar.wish-want"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u7.l1.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Belki»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Может быть",
+      "acceptedAnswers": [
+        "Может быть",
+        "может быть"
+      ],
+      "vocabularyKeys": [
+        "vocab.belki"
+      ],
+      "payload": {
+        "options": [
+          "Может быть",
+          "Конечно",
+          "Никогда",
+          "Всегда"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u7.l1.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: читать",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Okumak",
+      "acceptedAnswers": [
+        "Okumak",
+        "okumak"
+      ],
+      "vocabularyKeys": [
+        "vocab.okumak"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u7.l1.e3",
+      "type": "fillBlank",
+      "orderIndex": 2,
+      "promptText": "Заполните пропуск: Türkiye'yi gezmek ____. (Я хочу путешествовать по Турции.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "istiyorum",
+      "acceptedAnswers": [
+        "İstiyorum",
+        "istiyorum"
+      ],
+      "vocabularyKeys": [
+        "vocab.gezmek"
+      ],
+      "payload": {
+        "template": "Türkiye'yi gezmek ____.",
+        "blank": "istiyorum",
+        "options": [
+          "istiyorum",
+          "istemiyorum",
+          "gidiyorum",
+          "okuyorum"
+        ]
+      }
+    },
+    {
+      "key": "a2.u7.l1.e4",
+      "type": "multipleChoice",
+      "orderIndex": 3,
+      "promptText": "«Türkçe öğreniyorum» — что я делаю?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "учу турецкий",
+      "acceptedAnswers": [
+        "учу турецкий",
+        "учу турецкий"
+      ],
+      "vocabularyKeys": [
+        "vocab.ogrenmek"
+      ],
+      "payload": {
+        "options": [
+          "учу турецкий",
+          "работаю в Турции",
+          "читаю по-турецки",
+          "пишу по-турецки"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u7.l1.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Yeni bir plan yapıyorum.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Я составляю новый план.",
+      "acceptedAnswers": [
+        "Я составляю новый план.",
+        "я составляю новый план"
+      ],
+      "vocabularyKeys": [
+        "vocab.plan"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u7.l1.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Конечно, я хочу работать.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Tabii, çalışmak istiyorum.",
+      "acceptedAnswers": [
+        "Tabii, çalışmak istiyorum.",
+        "табии чалышмак истийорум"
+      ],
+      "vocabularyKeys": [
+        "vocab.tabii",
+        "vocab.calismak"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Tabii,",
+          "çalışmak",
+          "istiyorum."
+        ],
+        "wordBank": [
+          "istiyorum.",
+          "Tabii,",
+          "belki",
+          "çalışmak"
+        ]
+      }
+    },
+    {
+      "key": "a2.u7.l1.e7",
+      "type": "pronunciation",
+      "orderIndex": 6,
+      "promptText": "Произнесите фразу:",
+      "promptKey": "",
+      "hintKey": "умут эде-рим ки ола-джак",
+      "correctAnswerText": "Umut ederim ki olacak.",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.umut"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u7.l1.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите глаголы и слова о планах...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.gezmek",
+        "vocab.calismak",
+        "vocab.ogrenmek",
+        "vocab.yazmak",
+        "vocab.okumak",
+        "vocab.konusmak",
+        "vocab.plan",
+        "vocab.umut",
+        "vocab.belki",
+        "vocab.tabii"
+      ],
+      "payload": null
+    }
+  ]
+}

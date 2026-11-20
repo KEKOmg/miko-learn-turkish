@@ -1,0 +1,214 @@
+{
+  "key": "a1.u6.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a1.u6.l2.title",
+  "kind": "skill",
+  "unitKey": "a1.u6",
+  "vocabularyKeys": [
+    "vocab.gidiyorum",
+    "vocab.geliyorum",
+    "vocab.ucak",
+    "vocab.bilet",
+    "vocab.bugun",
+    "vocab.yarin",
+    "vocab.minsk",
+    "vocab.istanbul",
+    "vocab.ankara",
+    "vocab.belarus",
+    "vocab.turkiye"
+  ],
+  "grammarKeys": [
+    "grammar.direction-cases",
+    "grammar.present-tense"
+  ],
+  "exercises": [
+    {
+      "key": "a1.u6.l2.e1",
+      "type": "translateWord",
+      "orderIndex": 0,
+      "promptText": "Переведите на турецкий: Билет",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Bilet",
+      "acceptedAnswers": [
+        "Bilet",
+        "bilet"
+      ],
+      "vocabularyKeys": [
+        "vocab.bilet"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u6.l2.e2",
+      "type": "multipleChoice",
+      "orderIndex": 1,
+      "promptText": "Что значит «Yarın»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Завтра",
+      "acceptedAnswers": [
+        "Завтра",
+        "завтра"
+      ],
+      "vocabularyKeys": [
+        "vocab.yarin"
+      ],
+      "payload": {
+        "options": [
+          "Завтра",
+          "Сегодня",
+          "Самолёт",
+          "Билет"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u6.l2.e3",
+      "type": "buildSentence",
+      "orderIndex": 2,
+      "promptText": "Составьте предложение: Я еду из Минска в Стамбул",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Minsk'ten İstanbul'a gidiyorum",
+      "acceptedAnswers": [
+        "Minsk'ten İstanbul'a gidiyorum",
+        "Minsk'ten İstanbul'a gidiyorum."
+      ],
+      "vocabularyKeys": [
+        "vocab.minsk",
+        "vocab.istanbul",
+        "vocab.gidiyorum"
+      ],
+      "payload": {
+        "wordBank": [
+          "Minsk'ten",
+          "İstanbul'a",
+          "gidiyorum",
+          "Ankara'da",
+          "yaşıyorum"
+        ],
+        "sentenceWords": [
+          "Minsk'ten",
+          "İstanbul'a",
+          "gidiyorum"
+        ]
+      }
+    },
+    {
+      "key": "a1.u6.l2.e4",
+      "type": "fillBlank",
+      "orderIndex": 3,
+      "promptText": "Заполните пропуск: Yarın Ankara'____ gidiyorum. (Завтра я еду в Анкару.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "ya",
+      "acceptedAnswers": [
+        "ya"
+      ],
+      "vocabularyKeys": [
+        "vocab.yarin",
+        "vocab.ankara",
+        "vocab.gidiyorum"
+      ],
+      "payload": {
+        "template": "Yarın Ankara'____ gidiyorum.",
+        "blank": "ya",
+        "options": [
+          "ya",
+          "ye",
+          "dan",
+          "den"
+        ]
+      }
+    },
+    {
+      "key": "a1.u6.l2.e5",
+      "type": "listeningComprehension",
+      "orderIndex": 4,
+      "promptText": "Прослушайте и выберите перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Сегодня я еду в Стамбул.",
+      "acceptedAnswers": [
+        "Сегодня я еду в Стамбул.",
+        "Сегодня я еду в Стамбул"
+      ],
+      "vocabularyKeys": [
+        "vocab.bugun",
+        "vocab.istanbul",
+        "vocab.gidiyorum"
+      ],
+      "payload": {
+        "audioFileName": "bugun-istanbula-gidiyorum.mp3",
+        "transcript": "Bugün İstanbul'a gidiyorum.",
+        "options": [
+          "Сегодня я еду в Стамбул.",
+          "Завтра я еду в Анкару.",
+          "Я живу в Минске.",
+          "Я приехал из Турции."
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u6.l2.e6",
+      "type": "translateSentence",
+      "orderIndex": 5,
+      "promptText": "Переведите: Belarus'tan Türkiye'ye uçakla gidiyorum.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Я лечу из Беларуси в Турцию на самолёте.",
+      "acceptedAnswers": [
+        "Я лечу из Беларуси в Турцию на самолёте.",
+        "Я лечу из Беларуси в Турцию на самолёте",
+        "Я еду из Беларуси в Турцию на самолёте.",
+        "Я еду из Беларуси в Турцию на самолёте"
+      ],
+      "vocabularyKeys": [
+        "vocab.belarus",
+        "vocab.turkiye",
+        "vocab.ucak",
+        "vocab.gidiyorum"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u6.l2.e7",
+      "type": "pronunciation",
+      "orderIndex": 6,
+      "promptText": "Произнесите: İstanbul'a gidiyorum",
+      "promptKey": "",
+      "hintKey": "is-tan-bu-la gi-di-yo-rum",
+      "correctAnswerText": "İstanbul'a gidiyorum",
+      "acceptedAnswers": [
+        "İstanbul'a gidiyorum",
+        "istanbul'a gidiyorum"
+      ],
+      "vocabularyKeys": [
+        "vocab.istanbul",
+        "vocab.gidiyorum"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u6.l2.e8",
+      "type": "translateSentence",
+      "promptText": "Переведите: Ben geliyorum.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Я иду сюда.",
+      "acceptedAnswers": [
+        "Я иду сюда.",
+        "Я иду сюда",
+        "Я еду сюда."
+      ],
+      "vocabularyKeys": [
+        "vocab.geliyorum"
+      ],
+      "payload": null,
+      "orderIndex": 7
+    }
+  ]
+}

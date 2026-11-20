@@ -1,0 +1,9 @@
+{
+  "key": "a1.u6",
+  "orderIndex": 5,
+  "titleKey": "unit.a1.u6.title",
+  "theme": "belarus-turkiye",
+  "summaryKey": "unit.a1.u6.summary",
+  "levelKey": "a1",
+  "lessonKeys": ["a1.u6.l1", "a1.u6.l2"]
+}

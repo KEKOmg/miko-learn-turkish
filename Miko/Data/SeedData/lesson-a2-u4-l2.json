@@ -1,0 +1,202 @@
+{
+  "key": "a2.u4.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a2.u4.l2.title",
+  "kind": "skill",
+  "unitKey": "a2.u4",
+  "vocabularyKeys": [
+    "vocab.film",
+    "vocab.muzik",
+    "vocab.sarki",
+    "vocab.dans",
+    "vocab.oyun",
+    "vocab.spor",
+    "vocab.yuruyus",
+    "vocab.dinlemek",
+    "vocab.sevmek",
+    "vocab.izlemek"
+  ],
+  "grammarKeys": [
+    "grammar.accusative-case"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u4.l2.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Şarkı»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Песня",
+      "acceptedAnswers": [
+        "Песня",
+        "песня"
+      ],
+      "vocabularyKeys": [
+        "vocab.sarki"
+      ],
+      "payload": {
+        "options": [
+          "Песня",
+          "Фильм",
+          "Игра",
+          "Танец"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u4.l2.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: спорт",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Spor",
+      "acceptedAnswers": [
+        "Spor",
+        "Spor."
+      ],
+      "vocabularyKeys": [
+        "vocab.spor"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u4.l2.e3",
+      "type": "fillBlank",
+      "orderIndex": 2,
+      "promptText": "Заполните пропуск: Bu ____ çok seviyorum. (Этот фильм я очень люблю.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "filmi",
+      "acceptedAnswers": [
+        "Filmi",
+        "filmi"
+      ],
+      "vocabularyKeys": [
+        "vocab.film"
+      ],
+      "payload": {
+        "template": "Bu ____ çok seviyorum.",
+        "blank": "filmi",
+        "options": [
+          "filmi",
+          "film",
+          "filme",
+          "filmden"
+        ]
+      }
+    },
+    {
+      "key": "a2.u4.l2.e4",
+      "type": "multipleChoice",
+      "orderIndex": 3,
+      "promptText": "«Müzik dinliyorum» — что я делаю?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "слушаю музыку",
+      "acceptedAnswers": [
+        "слушаю музыку",
+        "слушаю музыку"
+      ],
+      "vocabularyKeys": [
+        "vocab.muzik",
+        "vocab.dinlemek"
+      ],
+      "payload": {
+        "options": [
+          "слушаю музыку",
+          "смотрю фильм",
+          "танцую танец",
+          "играю в игру"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u4.l2.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Arkadaşım ile yürüyüş yapıyoruz.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Мы гуляем с другом.",
+      "acceptedAnswers": [
+        "Мы гуляем с другом.",
+        "мы гуляем с другом"
+      ],
+      "vocabularyKeys": [
+        "vocab.yuruyus"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u4.l2.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Я смотрю фильм.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Film izliyorum.",
+      "acceptedAnswers": [
+        "Film izliyorum.",
+        "film izliyorum"
+      ],
+      "vocabularyKeys": [
+        "vocab.film",
+        "vocab.izlemek"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Film",
+          "izliyorum."
+        ],
+        "wordBank": [
+          "izliyorum.",
+          "Film",
+          "dinliyorum",
+          "okuyorum"
+        ]
+      }
+    },
+    {
+      "key": "a2.u4.l2.e7",
+      "type": "pronunciation",
+      "orderIndex": 6,
+      "promptText": "Произнесите фразу:",
+      "promptKey": "",
+      "hintKey": "myu-zik din-le-me-yu chok se-ve-rim",
+      "correctAnswerText": "Müzik dinlemeyi çok severim.",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.muzik",
+        "vocab.sevmek"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u4.l2.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова об увлечениях...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.film",
+        "vocab.muzik",
+        "vocab.sarki",
+        "vocab.dans",
+        "vocab.oyun",
+        "vocab.spor",
+        "vocab.yuruyus",
+        "vocab.dinlemek",
+        "vocab.sevmek",
+        "vocab.izlemek"
+      ],
+      "payload": null
+    }
+  ]
+}

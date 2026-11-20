@@ -1,0 +1,254 @@
+{
+  "key": "a1.u7.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a1.u7.l2.title",
+  "kind": "skill",
+  "unitKey": "a1.u7",
+  "vocabularyKeys": [
+    "vocab.sag",
+    "vocab.sol",
+    "vocab.duz",
+    "vocab.yakin",
+    "vocab.uzak",
+    "vocab.donun",
+    "vocab.gidin",
+    "vocab.burada",
+    "vocab.metro",
+    "vocab.durak",
+    "vocab.muze"
+  ],
+  "grammarKeys": [
+    "grammar.polite-imperative",
+    "grammar.locative-case"
+  ],
+  "exercises": [
+    {
+      "key": "a1.u7.l2.e1",
+      "type": "translateWord",
+      "orderIndex": 0,
+      "promptText": "Переведите на турецкий: Направо",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Sağ",
+      "acceptedAnswers": [
+        "Sağ",
+        "sağ"
+      ],
+      "vocabularyKeys": [
+        "vocab.sag"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u7.l2.e2",
+      "type": "multipleChoice",
+      "orderIndex": 1,
+      "promptText": "Что значит «Düz»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Прямо",
+      "acceptedAnswers": [
+        "Прямо",
+        "прямо"
+      ],
+      "vocabularyKeys": [
+        "vocab.duz"
+      ],
+      "payload": {
+        "options": [
+          "Прямо",
+          "Направо",
+          "Налево",
+          "Далеко"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u7.l2.e3",
+      "type": "buildSentence",
+      "orderIndex": 2,
+      "promptText": "Составьте фразу: Идите прямо",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Düz gidin",
+      "acceptedAnswers": [
+        "Düz gidin",
+        "Düz gidin."
+      ],
+      "vocabularyKeys": [
+        "vocab.duz",
+        "vocab.gidin"
+      ],
+      "payload": {
+        "wordBank": [
+          "Düz",
+          "gidin",
+          "Sağa",
+          "dönün",
+          "yakın"
+        ],
+        "sentenceWords": [
+          "Düz",
+          "gidin"
+        ]
+      }
+    },
+    {
+      "key": "a1.u7.l2.e4",
+      "type": "fillBlank",
+      "orderIndex": 3,
+      "promptText": "Заполните пропуск: Sağa ______. (Поверните направо.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "dönün",
+      "acceptedAnswers": [
+        "dönün",
+        "Dönün"
+      ],
+      "vocabularyKeys": [
+        "vocab.sag",
+        "vocab.donun"
+      ],
+      "payload": {
+        "template": "Sağa ____.",
+        "blank": "dönün",
+        "options": [
+          "dönün",
+          "gidin",
+          "yakın",
+          "burada"
+        ]
+      }
+    },
+    {
+      "key": "a1.u7.l2.e5",
+      "type": "listeningComprehension",
+      "orderIndex": 4,
+      "promptText": "Прослушайте и выберите перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Станция метро близко.",
+      "acceptedAnswers": [
+        "Станция метро близко.",
+        "Станция метро близко"
+      ],
+      "vocabularyKeys": [
+        "vocab.metro",
+        "vocab.durak",
+        "vocab.yakin"
+      ],
+      "payload": {
+        "audioFileName": "metro-duragi-yakin.mp3",
+        "transcript": "Metro durağı yakın.",
+        "options": [
+          "Станция метро близко.",
+          "Музей далеко.",
+          "Поверните налево.",
+          "Идите прямо."
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u7.l2.e6",
+      "type": "translateSentence",
+      "orderIndex": 5,
+      "promptText": "Переведите: Müze burada.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Музей здесь.",
+      "acceptedAnswers": [
+        "Музей здесь.",
+        "Музей здесь"
+      ],
+      "vocabularyKeys": [
+        "vocab.muze",
+        "vocab.burada"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u7.l2.e7",
+      "type": "matchPairs",
+      "orderIndex": 6,
+      "promptText": "Сопоставьте указания:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.sag",
+        "vocab.sol",
+        "vocab.duz",
+        "vocab.yakin",
+        "vocab.uzak"
+      ],
+      "payload": {
+        "pairs": [
+          {
+            "source": "Направо",
+            "target": "Sağ"
+          },
+          {
+            "source": "Налево",
+            "target": "Sol"
+          },
+          {
+            "source": "Прямо",
+            "target": "Düz"
+          },
+          {
+            "source": "Близко",
+            "target": "Yakın"
+          },
+          {
+            "source": "Далеко",
+            "target": "Uzak"
+          }
+        ]
+      }
+    },
+    {
+      "key": "a1.u7.l2.e8",
+      "type": "matchPairs",
+      "promptText": "Повторение курса: сопоставьте переводы:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.merhaba",
+        "vocab.gunaydin",
+        "vocab.evet",
+        "vocab.bir",
+        "vocab.on"
+      ],
+      "payload": {
+        "pairs": [
+          {
+            "source": "Привет",
+            "target": "Merhaba"
+          },
+          {
+            "source": "Доброе утро",
+            "target": "Günaydın"
+          },
+          {
+            "source": "Да",
+            "target": "Evet"
+          },
+          {
+            "source": "Один",
+            "target": "Bir"
+          },
+          {
+            "source": "Десять",
+            "target": "On"
+          }
+        ]
+      },
+      "orderIndex": 7
+    }
+  ]
+}

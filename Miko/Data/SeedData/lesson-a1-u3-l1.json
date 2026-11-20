@@ -1,0 +1,276 @@
+{
+  "key": "a1.u3.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a1.u3.l1.title",
+  "kind": "skill",
+  "unitKey": "a1.u3",
+  "vocabularyKeys": [
+    "vocab.bir",
+    "vocab.iki",
+    "vocab.uc",
+    "vocab.dort",
+    "vocab.bes",
+    "vocab.alti",
+    "vocab.yedi",
+    "vocab.sekiz",
+    "vocab.dokuz",
+    "vocab.on"
+  ],
+  "grammarKeys": [],
+  "exercises": [
+    {
+      "key": "a1.u3.l1.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Dört»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Четыре",
+      "acceptedAnswers": [
+        "Четыре",
+        "четыре"
+      ],
+      "vocabularyKeys": [
+        "vocab.dort"
+      ],
+      "payload": {
+        "options": [
+          "Четыре",
+          "Три",
+          "Пять",
+          "Шесть"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u3.l1.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: Семь",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Yedi",
+      "acceptedAnswers": [
+        "yedi",
+        "Yedi"
+      ],
+      "vocabularyKeys": [
+        "vocab.yedi"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u3.l1.e3",
+      "type": "matchPairs",
+      "orderIndex": 2,
+      "promptText": "Сопоставьте числа:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.bir",
+        "vocab.iki",
+        "vocab.uc",
+        "vocab.dort",
+        "vocab.bes"
+      ],
+      "payload": {
+        "pairs": [
+          {
+            "source": "Один",
+            "target": "Bir"
+          },
+          {
+            "source": "Два",
+            "target": "İki"
+          },
+          {
+            "source": "Три",
+            "target": "Üç"
+          },
+          {
+            "source": "Четыре",
+            "target": "Dört"
+          },
+          {
+            "source": "Пять",
+            "target": "Beş"
+          }
+        ]
+      }
+    },
+    {
+      "key": "a1.u3.l1.e4",
+      "type": "fillBlank",
+      "orderIndex": 3,
+      "promptText": "Заполните пропуск: ___ dakika, lütfen. (5 минут, пожалуйста.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Beş",
+      "acceptedAnswers": [
+        "Beş",
+        "beş",
+        "Bes",
+        "bes"
+      ],
+      "vocabularyKeys": [
+        "vocab.bes"
+      ],
+      "payload": {
+        "template": "____ dakika, lütfen.",
+        "blank": "Beş",
+        "options": [
+          "Beş",
+          "Üç",
+          "Sekiz",
+          "On"
+        ]
+      }
+    },
+    {
+      "key": "a1.u3.l1.e5",
+      "type": "multipleChoice",
+      "orderIndex": 4,
+      "promptText": "Сколько будет 7 + 3?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "On",
+      "acceptedAnswers": [
+        "On",
+        "on"
+      ],
+      "vocabularyKeys": [
+        "vocab.on"
+      ],
+      "payload": {
+        "options": [
+          "On",
+          "Dokuz",
+          "Sekiz",
+          "Yedi"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u3.l1.e6",
+      "type": "listeningComprehension",
+      "orderIndex": 5,
+      "promptText": "Прослушайте и выберите правильный порядок чисел:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Один, два, три.",
+      "acceptedAnswers": [
+        "Один, два, три.",
+        "Один, два, три"
+      ],
+      "vocabularyKeys": [
+        "vocab.bir",
+        "vocab.iki",
+        "vocab.uc"
+      ],
+      "payload": {
+        "audioFileName": "bir-iki-uc.mp3",
+        "transcript": "Bir, iki, üç.",
+        "options": [
+          "Один, два, три.",
+          "Три, два, один.",
+          "Один, три, пять.",
+          "Два, четыре, шесть."
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u3.l1.e8",
+      "type": "multipleChoice",
+      "promptText": "Что значит «Altı»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Шесть",
+      "acceptedAnswers": [
+        "Шесть",
+        "шесть"
+      ],
+      "vocabularyKeys": [
+        "vocab.alti"
+      ],
+      "payload": {
+        "options": [
+          "Шесть",
+          "Семь",
+          "Восемь",
+          "Девять"
+        ],
+        "correctIndex": 0
+      },
+      "orderIndex": 6
+    },
+    {
+      "key": "a1.u3.l1.e9",
+      "type": "translateWord",
+      "promptText": "Переведите на турецкий: Девять",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Dokuz",
+      "acceptedAnswers": [
+        "Dokuz",
+        "dokuz"
+      ],
+      "vocabularyKeys": [
+        "vocab.dokuz"
+      ],
+      "payload": null,
+      "orderIndex": 7
+    },
+    {
+      "key": "a1.u3.l1.e10",
+      "type": "fillBlank",
+      "promptText": "Заполните пропуск: Yedi, ____, dokuz. (7, ?, 9)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Sekiz",
+      "acceptedAnswers": [
+        "Sekiz",
+        "sekiz",
+        "Sekiz.",
+        "sekiz."
+      ],
+      "vocabularyKeys": [
+        "vocab.sekiz"
+      ],
+      "payload": {
+        "template": "Yedi, ____, dokuz.",
+        "blank": "Sekiz",
+        "options": [
+          "Sekiz",
+          "Altı",
+          "Beş",
+          "On"
+        ]
+      },
+      "orderIndex": 8
+    },
+    {
+      "key": "a1.u3.l1.e7",
+      "type": "vocabularyReview",
+      "orderIndex": 9,
+      "promptText": "Повторите числа...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.bir",
+        "vocab.iki",
+        "vocab.uc",
+        "vocab.dort",
+        "vocab.bes",
+        "vocab.on"
+      ],
+      "payload": null
+    }
+  ]
+}

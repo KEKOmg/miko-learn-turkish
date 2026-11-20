@@ -1,0 +1,64 @@
+{
+  "key": "a1.u2.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a1.u2.l1.title",
+  "kind": "skill",
+  "unitKey": "a1.u2",
+  "vocabularyKeys": ["vocab.ben","vocab.sen","vocab.ad","vocab.adim","vocab.memnun-oldum","vocab.ogrenci","vocab.ogretmen"],
+  "grammarKeys": ["grammar.personal-pronouns","grammar.copula-suffixes"],
+  "exercises": [
+    {
+      "key": "a1.u2.l1.e1","type": "translateSentence","orderIndex": 0,
+      "promptText": "Переведите: Benim adım Ayşe.",
+      "promptKey": "","hintKey": "",
+      "correctAnswerText": "Меня зовут Айше.",
+      "acceptedAnswers": ["Меня зовут Айше","Меня зовут Айше.","Моё имя — Айше","Моё имя Айше"],
+      "vocabularyKeys": ["vocab.adim"],"payload": null
+    },
+    {
+      "key": "a1.u2.l1.e2","type": "buildSentence","orderIndex": 1,
+      "promptText": "Составьте предложение: Меня зовут Мехмет",
+      "promptKey": "","hintKey": "",
+      "correctAnswerText": "Benim adım Mehmet",
+      "acceptedAnswers": ["Benim adım Mehmet","benim adım Mehmet","Benim adım Mehmet."],
+      "vocabularyKeys": ["vocab.adim"],
+      "payload": {"wordBank":["Benim","adım","Mehmet","Merhaba","sen"],"sentenceWords":["Benim","adım","Mehmet"]}
+    },
+    {
+      "key": "a1.u2.l1.e3","type": "translateWord","orderIndex": 2,
+      "promptText": "Переведите на турецкий: Я",
+      "promptKey": "","hintKey": "",
+      "correctAnswerText": "Ben","acceptedAnswers": ["ben","Ben"],
+      "vocabularyKeys": ["vocab.ben"],"payload": null
+    },
+    {
+      "key": "a1.u2.l1.e4","type": "multipleChoice","orderIndex": 3,
+      "promptText": "Что значит «Memnun oldum»?",
+      "promptKey": "","hintKey": "",
+      "correctAnswerText": "Приятно познакомиться","acceptedAnswers": ["Приятно познакомиться"],
+      "vocabularyKeys": ["vocab.memnun-oldum"],
+      "payload": {"options":["Приятно познакомиться","Как дела","До свидания","Спасибо"],"correctIndex":0}
+    },
+    {
+      "key": "a1.u2.l1.e5","type": "fillBlank","orderIndex": 4,
+      "promptText": "Заполните пропуск: Ben ______. (Я студент.)",
+      "promptKey": "","hintKey": "",
+      "correctAnswerText": "öğrenciyim",
+      "acceptedAnswers": ["öğrenciyim","Öğrenciyim","ogrenciyim"],
+      "vocabularyKeys": ["vocab.ogrenci"],
+      "payload": {"template":"Ben ____.","blank":"öğrenciyim","options":["öğrenciyim","öğretmen","kitap","masa"]}
+    },
+    {
+      "key": "a1.u2.l1.e6","type": "pronunciation","orderIndex": 5,
+      "promptText": "Произнесите: Benim adım...",
+      "promptKey": "","hintKey": "be-nim a-dım","correctAnswerText": "Benim adım",
+      "acceptedAnswers": ["benim adım","Benim adım"],"vocabularyKeys": ["vocab.adim"],"payload": null
+    },
+    {
+      "key": "a1.u2.l1.e7","type": "vocabularyReview","orderIndex": 6,
+      "promptText": "Повторите пройденные слова...","promptKey": "","hintKey": "",
+      "correctAnswerText": "","acceptedAnswers": [],
+      "vocabularyKeys": ["vocab.ben","vocab.sen","vocab.ad","vocab.adim","vocab.memnun-oldum"],"payload": null
+    }
+  ]
+}

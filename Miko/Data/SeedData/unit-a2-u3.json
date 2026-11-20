@@ -1,0 +1,12 @@
+{
+  "key": "a2.u3",
+  "orderIndex": 2,
+  "titleKey": "unit.a2.u3.title",
+  "theme": "weather",
+  "summaryKey": "unit.a2.u3.summary",
+  "levelKey": "a2",
+  "lessonKeys": [
+    "a2.u3.l1",
+    "a2.u3.l2"
+  ]
+}

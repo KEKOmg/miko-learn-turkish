@@ -1,0 +1,208 @@
+{
+  "key": "a1.u4.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a1.u4.l1.title",
+  "kind": "skill",
+  "unitKey": "a1.u4",
+  "vocabularyKeys": [
+    "vocab.ekmek",
+    "vocab.peynir",
+    "vocab.corba",
+    "vocab.pilav",
+    "vocab.kebap",
+    "vocab.istiyorum",
+    "vocab.lutfen"
+  ],
+  "grammarKeys": [
+    "grammar.present-tense"
+  ],
+  "exercises": [
+    {
+      "key": "a1.u4.l1.e1",
+      "type": "translateWord",
+      "orderIndex": 0,
+      "promptText": "Переведите на турецкий: Хлеб",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Ekmek",
+      "acceptedAnswers": [
+        "ekmek",
+        "Ekmek"
+      ],
+      "vocabularyKeys": [
+        "vocab.ekmek"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u4.l1.e2",
+      "type": "multipleChoice",
+      "orderIndex": 1,
+      "promptText": "Что значит «Çorba»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Суп",
+      "acceptedAnswers": [
+        "Суп",
+        "суп"
+      ],
+      "vocabularyKeys": [
+        "vocab.corba"
+      ],
+      "payload": {
+        "options": [
+          "Суп",
+          "Хлеб",
+          "Сыр",
+          "Плов"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u4.l1.e3",
+      "type": "listeningComprehension",
+      "orderIndex": 2,
+      "promptText": "Прослушайте и выберите правильный перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Я хочу кебаб.",
+      "acceptedAnswers": [
+        "Я хочу кебаб",
+        "Я хочу кебаб.",
+        "Хочу кебаб"
+      ],
+      "vocabularyKeys": [
+        "vocab.kebap",
+        "vocab.istiyorum"
+      ],
+      "payload": {
+        "audioFileName": "kebap-istiyorum.mp3",
+        "transcript": "Kebap istiyorum.",
+        "options": [
+          "Я хочу кебаб.",
+          "Я хочу суп.",
+          "Я хочу хлеб.",
+          "Я хочу плов."
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u4.l1.e4",
+      "type": "fillBlank",
+      "orderIndex": 3,
+      "promptText": "Заполните пропуск: Taze ______, lütfen. (Свежий хлеб, пожалуйста.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "ekmek",
+      "acceptedAnswers": [
+        "ekmek",
+        "Ekmek"
+      ],
+      "vocabularyKeys": [
+        "vocab.ekmek"
+      ],
+      "payload": {
+        "template": "Taze ____, lütfen.",
+        "blank": "ekmek",
+        "options": [
+          "ekmek",
+          "çorba",
+          "peynir",
+          "kebap"
+        ]
+      }
+    },
+    {
+      "key": "a1.u4.l1.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Mercimek çorbası, lütfen.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Чечевичный суп, пожалуйста.",
+      "acceptedAnswers": [
+        "Чечевичный суп, пожалуйста",
+        "Чечевичный суп, пожалуйста.",
+        "Суп из чечевицы, пожалуйста"
+      ],
+      "vocabularyKeys": [
+        "vocab.corba",
+        "vocab.lutfen"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u4.l1.e6",
+      "type": "pronunciation",
+      "orderIndex": 5,
+      "promptText": "Произнесите: Kebap istiyorum",
+      "promptKey": "",
+      "hintKey": "ke-bap is-ti-yo-rum",
+      "correctAnswerText": "Kebap istiyorum",
+      "acceptedAnswers": [
+        "Kebap istiyorum",
+        "kebap istiyorum"
+      ],
+      "vocabularyKeys": [
+        "vocab.kebap",
+        "vocab.istiyorum"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u4.l1.e7",
+      "type": "multipleChoice",
+      "orderIndex": 6,
+      "promptText": "Что значит «Pilav»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Плов",
+      "acceptedAnswers": [
+        "Плов",
+        "плов"
+      ],
+      "vocabularyKeys": [
+        "vocab.pilav"
+      ],
+      "payload": {
+        "options": [
+          "Плов",
+          "Суп",
+          "Хлеб",
+          "Кебаб"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u4.l1.e8",
+      "type": "fillBlank",
+      "promptText": "Заполните пропуск: Kahvaltıda ____ yiyorum. (На завтрак я ем сыр.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Peynir",
+      "acceptedAnswers": [
+        "Peynir",
+        "peynir",
+        "Peynir.",
+        "peynir."
+      ],
+      "vocabularyKeys": [
+        "vocab.peynir"
+      ],
+      "payload": {
+        "template": "Kahvaltıda ____ yiyorum.",
+        "blank": "Peynir",
+        "options": [
+          "Peynir",
+          "Çorba",
+          "Pilav",
+          "Kebap"
+        ]
+      },
+      "orderIndex": 7
+    }
+  ]
+}

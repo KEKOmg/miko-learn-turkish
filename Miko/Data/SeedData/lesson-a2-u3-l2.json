@@ -1,0 +1,221 @@
+{
+  "key": "a2.u3.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a2.u3.l2.title",
+  "kind": "skill",
+  "unitKey": "a2.u3",
+  "vocabularyKeys": [
+    "vocab.ilkbahar",
+    "vocab.yaz",
+    "vocab.sonbahar",
+    "vocab.kis",
+    "vocab.mevsim",
+    "vocab.derece",
+    "vocab.yagmurlu",
+    "vocab.gunesli",
+    "vocab.ruzgarli",
+    "vocab.karli"
+  ],
+  "grammarKeys": [
+    "grammar.comparison-daha"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u3.l2.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Mevsim»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Сезон, время года",
+      "acceptedAnswers": [
+        "Сезон, время года",
+        "сезон, время года"
+      ],
+      "vocabularyKeys": [
+        "vocab.mevsim"
+      ],
+      "payload": {
+        "options": [
+          "Сезон, время года",
+          "Погода",
+          "Неделя",
+          "Градус"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u3.l2.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: зима",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Kış",
+      "acceptedAnswers": [
+        "Kış",
+        "kış",
+        "Kish"
+      ],
+      "vocabularyKeys": [
+        "vocab.kis"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u3.l2.e3",
+      "type": "matchPairs",
+      "orderIndex": 2,
+      "promptText": "Сопоставьте времена года:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.ilkbahar",
+        "vocab.yaz",
+        "vocab.sonbahar",
+        "vocab.kis"
+      ],
+      "payload": {
+        "pairs": [
+          {
+            "source": "Весна",
+            "target": "İlkbahar"
+          },
+          {
+            "source": "Лето",
+            "target": "Yaz"
+          },
+          {
+            "source": "Осень",
+            "target": "Sonbahar"
+          },
+          {
+            "source": "Зима",
+            "target": "Kış"
+          }
+        ]
+      }
+    },
+    {
+      "key": "a2.u3.l2.e4",
+      "type": "fillBlank",
+      "orderIndex": 3,
+      "promptText": "Заполните пропуск: İlkbaharda hava ____ oluyor. (Весной погода становится солнечной.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "güneşli",
+      "acceptedAnswers": [
+        "Güneşli",
+        "güneşli"
+      ],
+      "vocabularyKeys": [
+        "vocab.gunesli",
+        "vocab.ilkbahar"
+      ],
+      "payload": {
+        "template": "İlkbaharda hava ____ oluyor.",
+        "blank": "güneşli",
+        "options": [
+          "güneşli",
+          "karlı",
+          "soğuk",
+          "rüzgarlı"
+        ]
+      }
+    },
+    {
+      "key": "a2.u3.l2.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Yaz, kıştan daha sıcak.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Лето жарче зимы.",
+      "acceptedAnswers": [
+        "Лето жарче зимы.",
+        "лето жарче зимы"
+      ],
+      "vocabularyKeys": [
+        "vocab.yaz",
+        "vocab.kis"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u3.l2.e6",
+      "type": "multipleChoice",
+      "orderIndex": 5,
+      "promptText": "«Otuz derece» — сколько?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "30 градусов",
+      "acceptedAnswers": [
+        "30 градусов",
+        "30 градусов"
+      ],
+      "vocabularyKeys": [],
+      "payload": {
+        "options": [
+          "30 градусов",
+          "13 градусов",
+          "3 градуса",
+          "300 градусов"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u3.l2.e7",
+      "type": "listeningComprehension",
+      "orderIndex": 6,
+      "promptText": "Прослушайте и выберите правильный перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Зимой идёт снег, погода холодная.",
+      "acceptedAnswers": [
+        "Зимой идёт снег, погода холодная"
+      ],
+      "vocabularyKeys": [
+        "vocab.kis",
+        "vocab.kar"
+      ],
+      "payload": {
+        "audioFileName": "kis-kar-yagiyor.mp3",
+        "transcript": "Kışın kar yağıyor, hava soğuk.",
+        "options": [
+          "Зимой идёт снег, погода холодная.",
+          "Летом солнечно и жарко.",
+          "Весной дует тёплый ветер.",
+          "Осенью часто идёт дождь."
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u3.l2.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите времена года...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.ilkbahar",
+        "vocab.yaz",
+        "vocab.sonbahar",
+        "vocab.kis",
+        "vocab.mevsim",
+        "vocab.derece",
+        "vocab.yagmurlu",
+        "vocab.gunesli",
+        "vocab.ruzgarli",
+        "vocab.karli"
+      ],
+      "payload": null
+    }
+  ]
+}

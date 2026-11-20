@@ -1,0 +1,196 @@
+{
+  "key": "a2.u3.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a2.u3.l1.title",
+  "kind": "skill",
+  "unitKey": "a2.u3",
+  "vocabularyKeys": [
+    "vocab.hava",
+    "vocab.sicak",
+    "vocab.soguk",
+    "vocab.yagmur",
+    "vocab.kar",
+    "vocab.ruzgar",
+    "vocab.gunes",
+    "vocab.bulut"
+  ],
+  "grammarKeys": [
+    "grammar.present-continuous"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u3.l1.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Yağmur»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Дождь",
+      "acceptedAnswers": [
+        "Дождь",
+        "дождь"
+      ],
+      "vocabularyKeys": [
+        "vocab.yagmur"
+      ],
+      "payload": {
+        "options": [
+          "Дождь",
+          "Снег",
+          "Ветер",
+          "Солнце"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u3.l1.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: холодный",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Soğuk",
+      "acceptedAnswers": [
+        "Soğuk",
+        "soğuk",
+        "Soguk"
+      ],
+      "vocabularyKeys": [
+        "vocab.soguk"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u3.l1.e3",
+      "type": "fillBlank",
+      "orderIndex": 2,
+      "promptText": "Заполните пропуск: Bugün hava çok ____. (Сегодня очень жарко.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "sıcak",
+      "acceptedAnswers": [
+        "Sıcak",
+        "sıcak"
+      ],
+      "vocabularyKeys": [
+        "vocab.hava",
+        "vocab.sicak"
+      ],
+      "payload": {
+        "template": "Bugün hava çok ____.",
+        "blank": "sıcak",
+        "options": [
+          "sıcak",
+          "soğuk",
+          "karlı",
+          "yağmurlu"
+        ]
+      }
+    },
+    {
+      "key": "a2.u3.l1.e4",
+      "type": "multipleChoice",
+      "orderIndex": 3,
+      "promptText": "«Güneş» — это…",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "солнце",
+      "acceptedAnswers": [
+        "солнце",
+        "солнце"
+      ],
+      "vocabularyKeys": [
+        "vocab.gunes"
+      ],
+      "payload": {
+        "options": [
+          "солнце",
+          "облако",
+          "луна",
+          "звезда"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u3.l1.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Rüzgar çok güçlü.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Ветер очень сильный.",
+      "acceptedAnswers": [
+        "Ветер очень сильный.",
+        "ветер очень сильный"
+      ],
+      "vocabularyKeys": [
+        "vocab.ruzgar"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u3.l1.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Идёт снег.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Kar yağıyor.",
+      "acceptedAnswers": [
+        "Kar yağıyor.",
+        "kar yağıyor"
+      ],
+      "vocabularyKeys": [
+        "vocab.kar"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Kar",
+          "yağıyor."
+        ],
+        "wordBank": [
+          "yağıyor.",
+          "Kar",
+          "yağmur"
+        ]
+      }
+    },
+    {
+      "key": "a2.u3.l1.e7",
+      "type": "pronunciation",
+      "orderIndex": 6,
+      "promptText": "Произнесите фразу:",
+      "promptKey": "",
+      "hintKey": "ha-va bu-gyun chok gyu-zel",
+      "correctAnswerText": "Hava bugün çok güzel.",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.hava"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u3.l1.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова о погоде...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.hava",
+        "vocab.sicak",
+        "vocab.soguk",
+        "vocab.yagmur",
+        "vocab.kar",
+        "vocab.ruzgar",
+        "vocab.gunes",
+        "vocab.bulut"
+      ],
+      "payload": null
+    }
+  ]
+}

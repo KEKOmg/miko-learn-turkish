@@ -1,0 +1,17 @@
+{
+  "key": "a1.u2.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a1.u2.l2.title",
+  "kind": "skill",
+  "unitKey": "a1.u2",
+  "vocabularyKeys": ["vocab.nerelisin","vocab.belarusluyum","vocab.ben","vocab.sen","vocab.anliyorum"],
+  "grammarKeys": ["grammar.question-words","grammar.copula-suffixes"],
+  "exercises": [
+    {"key":"a1.u2.l2.e1","type":"translateSentence","orderIndex":0,"promptText":"Переведите: Sen nerelisin?","promptKey":"","hintKey":"","correctAnswerText":"Ты откуда?","acceptedAnswers":["Ты откуда?","ты откуда?","Откуда ты?","откуда ты?"],"vocabularyKeys":["vocab.nerelisin","vocab.sen"],"payload":null},
+    {"key":"a1.u2.l2.e2","type":"fillBlank","orderIndex":1,"promptText":"Заполните пропуск: Ben ______. (Я из Беларуси.)","promptKey":"","hintKey":"","correctAnswerText":"Belarusluyum","acceptedAnswers":["Belarusluyum","belarusluyum"],"vocabularyKeys":["vocab.belarusluyum"],"payload":{"template":"Ben ____.","blank":"Belarusluyum","options":["Belarusluyum","Rusyalıyım","Ukraynalıyım","Polonyalıyım"]}},
+    {"key":"a1.u2.l2.e3","type":"multipleChoice","orderIndex":2,"promptText":"Что значит «Nerelisin»?","promptKey":"","hintKey":"","correctAnswerText":"Ты откуда?","acceptedAnswers":["Ты откуда?"],"vocabularyKeys":["vocab.nerelisin"],"payload":{"options":["Ты откуда?","Как дела?","Сколько тебе лет?","Где ты работаешь?"],"correctIndex":0}},
+    {"key":"a1.u2.l2.e4","type":"translateWord","orderIndex":3,"promptText":"Переведите на турецкий: Я понимаю","promptKey":"","hintKey":"","correctAnswerText":"Anlıyorum","acceptedAnswers":["Anlıyorum","anlıyorum"],"vocabularyKeys":["vocab.anliyorum"],"payload":null},
+    {"key":"a1.u2.l2.e5","type":"matchPairs","orderIndex":4,"promptText":"Сопоставьте вопросы и ответы:","promptKey":"","hintKey":"","correctAnswerText":"","acceptedAnswers":[],"vocabularyKeys":["vocab.nasilsin","vocab.iyiyim","vocab.nerelisin","vocab.belarusluyum"],"payload":{"pairs":[{"source":"Nasılsın?","target":"İyiyim."},{"source":"Nerelisin?","target":"Belarusluyum."},{"source":"Adın ne?","target":"Adım Mehmet."}]}},
+    {"key":"a1.u2.l2.e6","type":"vocabularyReview","orderIndex":5,"promptText":"Повторите пройденные слова...","promptKey":"","hintKey":"","correctAnswerText":"","acceptedAnswers":[],"vocabularyKeys":["vocab.ben","vocab.sen","vocab.nerelisin","vocab.belarusluyum","vocab.anliyorum"],"payload":null}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "key": "a1.u2",
+  "orderIndex": 1,
+  "titleKey": "unit.a1.u2.title",
+  "theme": "introductions",
+  "summaryKey": "unit.a1.u2.summary",
+  "levelKey": "a1",
+  "lessonKeys": ["a1.u2.l1", "a1.u2.l2"]
+}

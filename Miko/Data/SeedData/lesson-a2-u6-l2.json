@@ -1,0 +1,199 @@
+{
+  "key": "a2.u6.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a2.u6.l2.title",
+  "kind": "skill",
+  "unitKey": "a2.u6",
+  "vocabularyKeys": [
+    "vocab.ates",
+    "vocab.oksuruk",
+    "vocab.recete",
+    "vocab.eczane",
+    "vocab.dinlenmek",
+    "vocab.surup",
+    "vocab.vitamin",
+    "vocab.muayene",
+    "vocab.randevu",
+    "vocab.saglik"
+  ],
+  "grammarKeys": [],
+  "exercises": [
+    {
+      "key": "a2.u6.l2.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Eczane»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Аптека",
+      "acceptedAnswers": [
+        "Аптека",
+        "аптека"
+      ],
+      "vocabularyKeys": [
+        "vocab.eczane"
+      ],
+      "payload": {
+        "options": [
+          "Аптека",
+          "Больница",
+          "Рецепт",
+          "Осмотр"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u6.l2.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: кашель",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Öksürük",
+      "acceptedAnswers": [
+        "Öksürük",
+        "öksürük",
+        "Oksuruk"
+      ],
+      "vocabularyKeys": [
+        "vocab.oksuruk"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u6.l2.e3",
+      "type": "fillBlank",
+      "orderIndex": 2,
+      "promptText": "Заполните пропуск: Doktor bana ____ yazdı. (Врач выписал мне рецепт.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "reçete",
+      "acceptedAnswers": [
+        "Reçete",
+        "reçete"
+      ],
+      "vocabularyKeys": [
+        "vocab.recete"
+      ],
+      "payload": {
+        "template": "Doktor bana ____ yazdı.",
+        "blank": "reçete",
+        "options": [
+          "reçete",
+          "ateş",
+          "şurup",
+          "vitamin"
+        ]
+      }
+    },
+    {
+      "key": "a2.u6.l2.e4",
+      "type": "multipleChoice",
+      "orderIndex": 3,
+      "promptText": "Как сказать по-турецки «при записи на приём»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Randevu alırken",
+      "acceptedAnswers": [
+        "Randevu alırken",
+        "randevu alırken"
+      ],
+      "vocabularyKeys": [
+        "vocab.randevu"
+      ],
+      "payload": {
+        "options": [
+          "Randevu alırken",
+          "İlaç içerken",
+          "Ateş ölçerken",
+          "Şurup içerken"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u6.l2.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Biraz dinlenmen lazım.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Тебе нужно немного отдохнуть.",
+      "acceptedAnswers": [
+        "Тебе нужно немного отдохнуть.",
+        "тебе нужно немного отдохнуть"
+      ],
+      "vocabularyKeys": [
+        "vocab.dinlenmek"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u6.l2.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «У меня высокая температура.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Ateşim çok yüksek.",
+      "acceptedAnswers": [
+        "Ateşim çok yüksek.",
+        "атешим чок юксек"
+      ],
+      "vocabularyKeys": [
+        "vocab.ates"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Ateşim",
+          "çok",
+          "yüksek."
+        ],
+        "wordBank": [
+          "yüksek.",
+          "Ateşim",
+          "çok",
+          "öksürüğüm"
+        ]
+      }
+    },
+    {
+      "key": "a2.u6.l2.e7",
+      "type": "pronunciation",
+      "orderIndex": 6,
+      "promptText": "Произнесите фразу:",
+      "promptKey": "",
+      "hintKey": "gech-mish ol-sun saa-gh-li gyun-ler",
+      "correctAnswerText": "Geçmiş olsun, sağlıklı günler!",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.saglik"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u6.l2.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова о визите к врачу...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.ates",
+        "vocab.oksuruk",
+        "vocab.recete",
+        "vocab.eczane",
+        "vocab.dinlenmek",
+        "vocab.surup",
+        "vocab.vitamin",
+        "vocab.muayene",
+        "vocab.randevu",
+        "vocab.saglik"
+      ],
+      "payload": null
+    }
+  ]
+}

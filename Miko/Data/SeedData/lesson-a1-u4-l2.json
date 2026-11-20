@@ -1,0 +1,18 @@
+{
+  "key": "a1.u4.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a1.u4.l2.title",
+  "kind": "skill",
+  "unitKey": "a1.u4",
+  "vocabularyKeys": ["vocab.su","vocab.cay","vocab.kahve","vocab.sut","vocab.ayran","vocab.meyve-suyu","vocab.istiyorum","vocab.lutfen"],
+  "grammarKeys": ["grammar.present-tense"],
+  "exercises": [
+    {"key":"a1.u4.l2.e1","type":"translateWord","orderIndex":0,"promptText":"Переведите на турецкий: Чай","promptKey":"","hintKey":"","correctAnswerText":"Çay","acceptedAnswers":["çay","Çay","cay"],"vocabularyKeys":["vocab.cay"],"payload":null},
+    {"key":"a1.u4.l2.e2","type":"matchPairs","orderIndex":1,"promptText":"Сопоставьте напитки:","promptKey":"","hintKey":"","correctAnswerText":"","acceptedAnswers":[],"vocabularyKeys":["vocab.su","vocab.cay","vocab.kahve","vocab.sut","vocab.ayran"],"payload":{"pairs":[{"source":"Вода","target":"Su"},{"source":"Чай","target":"Çay"},{"source":"Кофе","target":"Kahve"},{"source":"Молоко","target":"Süt"},{"source":"Айран","target":"Ayran"}]}},
+    {"key":"a1.u4.l2.e3","type":"translateSentence","orderIndex":2,"promptText":"Переведите: Bir bardak çay, lütfen.","promptKey":"","hintKey":"","correctAnswerText":"Стакан чая, пожалуйста.","acceptedAnswers":["Стакан чая, пожалуйста","Стакан чая, пожалуйста.","Один стакан чая, пожалуйста"],"vocabularyKeys":["vocab.cay","vocab.lutfen"],"payload":null},
+    {"key":"a1.u4.l2.e4","type":"multipleChoice","orderIndex":3,"promptText":"Что значит «Kahve»?","promptKey":"","hintKey":"","correctAnswerText":"Кофе","acceptedAnswers":["Кофе","кофе"],"vocabularyKeys":["vocab.kahve"],"payload":{"options":["Кофе","Чай","Молоко","Вода"],"correctIndex":0}},
+    {"key":"a1.u4.l2.e5","type":"fillBlank","orderIndex":4,"promptText":"Заполните пропуск: Bir bardak ______, lütfen. (Стакан воды.)","promptKey":"","hintKey":"","correctAnswerText":"su","acceptedAnswers":["su","Su"],"vocabularyKeys":["vocab.su"],"payload":{"template":"Bir bardak ____, lütfen.","blank":"su","options":["su","çay","kahve","ayran"]}},
+    {"key":"a1.u4.l2.e6","type":"translateWord","orderIndex":5,"promptText":"Переведите на турецкий: Сок","promptKey":"","hintKey":"","correctAnswerText":"Meyve suyu","acceptedAnswers":["meyve suyu","Meyve suyu","Meyve suyu."],"vocabularyKeys":["vocab.meyve-suyu"],"payload":null},
+    {"key":"a1.u4.l2.e7","type":"vocabularyReview","orderIndex":6,"promptText":"Повторите напитки...","promptKey":"","hintKey":"","correctAnswerText":"","acceptedAnswers":[],"vocabularyKeys":["vocab.su","vocab.cay","vocab.kahve","vocab.sut","vocab.ayran","vocab.meyve-suyu"],"payload":null}
+  ]
+}

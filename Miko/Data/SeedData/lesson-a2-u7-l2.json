@@ -1,0 +1,222 @@
+{
+  "key": "a2.u7.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a2.u7.l2.title",
+  "kind": "skill",
+  "unitKey": "a2.u7",
+  "vocabularyKeys": [
+    "vocab.deniz",
+    "vocab.plaj",
+    "vocab.tatil",
+    "vocab.yolculuk",
+    "vocab.valiz",
+    "vocab.pasaport",
+    "vocab.harita",
+    "vocab.kamera"
+  ],
+  "grammarKeys": [
+    "grammar.present-continuous"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u7.l2.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Deniz»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Море",
+      "acceptedAnswers": [
+        "Море",
+        "море"
+      ],
+      "vocabularyKeys": [
+        "vocab.deniz"
+      ],
+      "payload": {
+        "options": [
+          "Море",
+          "Пляж",
+          "Отпуск",
+          "Чемодан"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u7.l2.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: паспорт",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Pasaport",
+      "acceptedAnswers": [
+        "Pasaport",
+        "pasaport"
+      ],
+      "vocabularyKeys": [
+        "vocab.pasaport"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u7.l2.e3",
+      "type": "matchPairs",
+      "orderIndex": 2,
+      "promptText": "Сопоставьте слова о поездке:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.tatil",
+        "vocab.valiz",
+        "vocab.yolculuk",
+        "vocab.harita"
+      ],
+      "payload": {
+        "pairs": [
+          {
+            "source": "Отпуск",
+            "target": "Tatil"
+          },
+          {
+            "source": "Чемодан",
+            "target": "Valiz"
+          },
+          {
+            "source": "Поездка",
+            "target": "Yolculuk"
+          },
+          {
+            "source": "Карта",
+            "target": "Harita"
+          }
+        ]
+      }
+    },
+    {
+      "key": "a2.u7.l2.e4",
+      "type": "fillBlank",
+      "orderIndex": 3,
+      "promptText": "Заполните пропуск: Yazın ____ gidiyoruz. (Летом мы едем в отпуск.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "tatile",
+      "acceptedAnswers": [
+        "Tatile",
+        "tatile"
+      ],
+      "vocabularyKeys": [
+        "vocab.deniz",
+        "vocab.tatil"
+      ],
+      "payload": {
+        "template": "Yazın ____ gidiyoruz.",
+        "blank": "tatile",
+        "options": [
+          "tatile",
+          "işe",
+          "okula",
+          "eve"
+        ]
+      }
+    },
+    {
+      "key": "a2.u7.l2.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Valizimi hazırlıyorum.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Я собираю свой чемодан.",
+      "acceptedAnswers": [
+        "Я собираю свой чемодан.",
+        "я собираю свой чемодан"
+      ],
+      "vocabularyKeys": [
+        "vocab.valiz"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u7.l2.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Я фотографирую на пляже.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Plajda fotoğraf çekiyorum.",
+      "acceptedAnswers": [
+        "Plajda fotoğraf çekiyorum.",
+        "плажда фотограф чекийорум"
+      ],
+      "vocabularyKeys": [
+        "vocab.plaj",
+        "vocab.kamera"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Plajda",
+          "fotoğraf",
+          "çekiyorum."
+        ],
+        "wordBank": [
+          "çekiyorum.",
+          "Plajda",
+          "Denizde",
+          "fotoğraf"
+        ]
+      }
+    },
+    {
+      "key": "a2.u7.l2.e7",
+      "type": "listeningComprehension",
+      "orderIndex": 6,
+      "promptText": "Прослушайте и выберите правильный перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Этим летом в отпуске мы пойдём на пляж.",
+      "acceptedAnswers": [
+        "Этим летом в отпуске мы пойдём на пляж"
+      ],
+      "vocabularyKeys": [
+        "vocab.tatil",
+        "vocab.plaj"
+      ],
+      "payload": {
+        "audioFileName": "tatil-plaja-gidiyoruz.mp3",
+        "transcript": "Bu yaz tatilde plaja gideceğiz.",
+        "options": [
+          "Этим летом в отпуске мы пойдём на пляж.",
+          "Этой зимой мы поедем в горы.",
+          "Наш чемодан уже собран.",
+          "Мы купили билеты на самолёт."
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u7.l2.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова об отпуске...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.deniz",
+        "vocab.plaj",
+        "vocab.tatil",
+        "vocab.yolculuk",
+        "vocab.valiz",
+        "vocab.pasaport",
+        "vocab.harita",
+        "vocab.kamera"
+      ],
+      "payload": null
+    }
+  ]
+}

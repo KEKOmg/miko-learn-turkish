@@ -1,0 +1,212 @@
+{
+  "key": "a2.u5.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a2.u5.l1.title",
+  "kind": "skill",
+  "unitKey": "a2.u5",
+  "vocabularyKeys": [
+    "vocab.para",
+    "vocab.fiyat",
+    "vocab.pahali",
+    "vocab.ucuz",
+    "vocab.magaza",
+    "vocab.market",
+    "vocab.alisveris",
+    "vocab.indirim",
+    "vocab.nakit",
+    "vocab.kart"
+  ],
+  "grammarKeys": [],
+  "exercises": [
+    {
+      "key": "a2.u5.l1.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Pahalı»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Дорогой",
+      "acceptedAnswers": [
+        "Дорогой",
+        "дорогой"
+      ],
+      "vocabularyKeys": [
+        "vocab.pahali"
+      ],
+      "payload": {
+        "options": [
+          "Дорогой",
+          "Дешёвый",
+          "Бесплатно",
+          "Новый"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u5.l1.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: деньги",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Para",
+      "acceptedAnswers": [
+        "Para",
+        "para"
+      ],
+      "vocabularyKeys": [
+        "vocab.para"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u5.l1.e3",
+      "type": "fillBlank",
+      "orderIndex": 2,
+      "promptText": "Заполните пропуск: Bu mağaza çok ____, oradan almayalım. (Этот магазин дорогой, не будем там брать.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "pahalı",
+      "acceptedAnswers": [
+        "Pahalı",
+        "pahalı"
+      ],
+      "vocabularyKeys": [
+        "vocab.magaza",
+        "vocab.pahali"
+      ],
+      "payload": {
+        "template": "Bu mağaza çok ____, oradan almayalım.",
+        "blank": "pahalı",
+        "options": [
+          "pahalı",
+          "ucuz",
+          "indirimli",
+          "yeni"
+        ]
+      }
+    },
+    {
+      "key": "a2.u5.l1.e4",
+      "type": "multipleChoice",
+      "orderIndex": 3,
+      "promptText": "«Kaç para?» — какой вопрос?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Сколько стоит?",
+      "acceptedAnswers": [
+        "Сколько стоит?",
+        "сколько стоит?"
+      ],
+      "vocabularyKeys": [],
+      "payload": {
+        "options": [
+          "Сколько стоит?",
+          "Где магазин?",
+          "Есть скидка?",
+          "Картой можно?"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u5.l1.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Alışveriş markette yapıyorum.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Я делаю покупки в супермаркете.",
+      "acceptedAnswers": [
+        "Я делаю покупки в супермаркете.",
+        "я делаю покупки в супермаркете"
+      ],
+      "vocabularyKeys": [
+        "vocab.alisveris",
+        "vocab.market"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u5.l1.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Картой можно?»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Kartla ödeyebilir miyim?",
+      "acceptedAnswers": [
+        "Kartla ödeyebilir miyim?",
+        "картла эде-йе-билир ми-им"
+      ],
+      "vocabularyKeys": [
+        "vocab.kart",
+        "vocab.nakit"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Kartla",
+          "ödeyebilir",
+          "miyim?"
+        ],
+        "wordBank": [
+          "miyim?",
+          "Kartla",
+          "Nakit",
+          "ödeyebilir"
+        ]
+      }
+    },
+    {
+      "key": "a2.u5.l1.e7",
+      "type": "listeningComprehension",
+      "orderIndex": 6,
+      "promptText": "Прослушайте и выберите правильный перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Сегодня скидка, всё дешевле.",
+      "acceptedAnswers": [
+        "Сегодня скидка, всё дешевле"
+      ],
+      "vocabularyKeys": [
+        "vocab.indirim",
+        "vocab.ucuz"
+      ],
+      "payload": {
+        "audioFileName": "indirim-var-misin.mp3",
+        "transcript": "Bugün indirim var, her şey daha ucuz.",
+        "options": [
+          "Сегодня скидка, всё дешевле.",
+          "Сегодня цены выше обычного.",
+          "Магазин сегодня закрыт.",
+          "У вас есть наличные?"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u5.l1.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова о покупках...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.para",
+        "vocab.fiyat",
+        "vocab.pahali",
+        "vocab.ucuz",
+        "vocab.magaza",
+        "vocab.market",
+        "vocab.alisveris",
+        "vocab.indirim",
+        "vocab.nakit",
+        "vocab.kart"
+      ],
+      "payload": null
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "key": "a2.u6.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a2.u6.l1.title",
+  "kind": "skill",
+  "unitKey": "a2.u6",
+  "vocabularyKeys": [
+    "vocab.bas",
+    "vocab.goz",
+    "vocab.el",
+    "vocab.ayak",
+    "vocab.mide",
+    "vocab.dis",
+    "vocab.agriyor",
+    "vocab.hasta",
+    "vocab.ilac",
+    "vocab.doktor"
+  ],
+  "grammarKeys": [
+    "grammar.body-ailments"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u6.l1.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Diş»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Зуб",
+      "acceptedAnswers": [
+        "Зуб",
+        "зуб"
+      ],
+      "vocabularyKeys": [
+        "vocab.dis"
+      ],
+      "payload": {
+        "options": [
+          "Зуб",
+          "Глаз",
+          "Рука",
+          "Живот"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u6.l1.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: врач",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Doktor",
+      "acceptedAnswers": [
+        "Doktor",
+        "doktor"
+      ],
+      "vocabularyKeys": [
+        "vocab.doktor"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u6.l1.e3",
+      "type": "fillBlank",
+      "orderIndex": 2,
+      "promptText": "Заполните пропуск: Başım çok ____. (У меня очень болит голова.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "ağrıyor",
+      "acceptedAnswers": [
+        "Ağrıyor",
+        "ağrıyor"
+      ],
+      "vocabularyKeys": [
+        "vocab.bas",
+        "vocab.agriyor"
+      ],
+      "payload": {
+        "template": "Başım çok ____.",
+        "blank": "ağrıyor",
+        "options": [
+          "ağrıyor",
+          "gülüyor",
+          "koşuyor",
+          "oturuyor"
+        ]
+      }
+    },
+    {
+      "key": "a2.u6.l1.e4",
+      "type": "multipleChoice",
+      "orderIndex": 3,
+      "promptText": "«Hastayım» — что это значит?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Я болен",
+      "acceptedAnswers": [
+        "Я болен",
+        "я болен"
+      ],
+      "vocabularyKeys": [
+        "vocab.hasta"
+      ],
+      "payload": {
+        "options": [
+          "Я болен",
+          "Я здоров",
+          "Я врач",
+          "Я в аптеке"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u6.l1.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Gözlerim ağrıyor.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "У меня болят глаза.",
+      "acceptedAnswers": [
+        "У меня болят глаза.",
+        "у меня болят глаза"
+      ],
+      "vocabularyKeys": [
+        "vocab.goz",
+        "vocab.agriyor"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u6.l1.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Мне нужно лекарство.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "İlaç lazım.",
+      "acceptedAnswers": [
+        "İlaç lazım.",
+        "илач лазы́м"
+      ],
+      "vocabularyKeys": [
+        "vocab.ilac"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "İlaç",
+          "lazım."
+        ],
+        "wordBank": [
+          "lazım.",
+          "İlaç",
+          "Doktor",
+          "istiyorum"
+        ]
+      }
+    },
+    {
+      "key": "a2.u6.l1.e7",
+      "type": "listeningComprehension",
+      "orderIndex": 6,
+      "promptText": "Прослушайте и выберите правильный перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "У меня болит зуб, я иду к врачу.",
+      "acceptedAnswers": [
+        "У меня болит зуб, я иду к врачу"
+      ],
+      "vocabularyKeys": [
+        "vocab.dis",
+        "vocab.doktor"
+      ],
+      "payload": {
+        "audioFileName": "disim-agriyor.mp3",
+        "transcript": "Dişim ağrıyor, doktora gidiyorum.",
+        "options": [
+          "У меня болит зуб, я иду к врачу.",
+          "У меня болит голова, я дома.",
+          "Мне нужно лекарство из аптеки.",
+          "Врач выписал мне рецепт."
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u6.l1.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова о здоровье...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.bas",
+        "vocab.goz",
+        "vocab.el",
+        "vocab.ayak",
+        "vocab.mide",
+        "vocab.dis",
+        "vocab.agriyor",
+        "vocab.hasta",
+        "vocab.ilac",
+        "vocab.doktor"
+      ],
+      "payload": null
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "key": "a1.u1",
+  "orderIndex": 0,
+  "titleKey": "unit.a1.u1.title",
+  "theme": "greetings",
+  "summaryKey": "unit.a1.u1.summary",
+  "levelKey": "a1",
+  "lessonKeys": ["a1.u1.l1", "a1.u1.l2"]
+}

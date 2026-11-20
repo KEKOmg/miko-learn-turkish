@@ -1,0 +1,223 @@
+{
+  "key": "a2.u2.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a2.u2.l1.title",
+  "kind": "skill",
+  "unitKey": "a2.u2",
+  "vocabularyKeys": [
+    "vocab.pazartesi",
+    "vocab.sali",
+    "vocab.carsamba",
+    "vocab.persembe",
+    "vocab.cuma",
+    "vocab.cumartesi",
+    "vocab.pazar",
+    "vocab.hafta",
+    "vocab.gun",
+    "vocab.dun"
+  ],
+  "grammarKeys": [],
+  "exercises": [
+    {
+      "key": "a2.u2.l1.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Какой день идёт после Çarşamba?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Perşembe",
+      "acceptedAnswers": [
+        "Perşembe",
+        "perşembe"
+      ],
+      "vocabularyKeys": [
+        "vocab.persembe",
+        "vocab.carsamba"
+      ],
+      "payload": {
+        "options": [
+          "Perşembe",
+          "Salı",
+          "Cuma",
+          "Pazar"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u2.l1.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: суббота",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Cumartesi",
+      "acceptedAnswers": [
+        "Cumartesi",
+        "cumartesi"
+      ],
+      "vocabularyKeys": [
+        "vocab.cumartesi"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u2.l1.e3",
+      "type": "matchPairs",
+      "orderIndex": 2,
+      "promptText": "Сопоставьте дни недели:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.pazartesi",
+        "vocab.carsamba",
+        "vocab.cuma",
+        "vocab.pazar"
+      ],
+      "payload": {
+        "pairs": [
+          {
+            "source": "понедельник",
+            "target": "Pazartesi"
+          },
+          {
+            "source": "среда",
+            "target": "Çarşamba"
+          },
+          {
+            "source": "пятница",
+            "target": "Cuma"
+          },
+          {
+            "source": "воскресенье",
+            "target": "Pazar"
+          }
+        ]
+      }
+    },
+    {
+      "key": "a2.u2.l1.e4",
+      "type": "fillBlank",
+      "orderIndex": 3,
+      "promptText": "Заполните пропуск: Hafta sonu ____ ve Cumartesi. (Выходные — воскресенье и суббота.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Pazar",
+      "acceptedAnswers": [
+        "Pazar",
+        "pazar"
+      ],
+      "vocabularyKeys": [
+        "vocab.pazar",
+        "vocab.hafta"
+      ],
+      "payload": {
+        "template": "Hafta sonu ____ ve Cumartesi.",
+        "blank": "Pazar",
+        "options": [
+          "Pazar",
+          "Pazartesi",
+          "Salı",
+          "Cuma"
+        ]
+      }
+    },
+    {
+      "key": "a2.u2.l1.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Dün Salı idi.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Вчера был вторник.",
+      "acceptedAnswers": [
+        "Вчера был вторник.",
+        "вчера был вторник"
+      ],
+      "vocabularyKeys": [
+        "vocab.dun",
+        "vocab.sali"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u2.l1.e6",
+      "type": "multipleChoice",
+      "orderIndex": 5,
+      "promptText": "Сколько дней в hafta?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Yedi",
+      "acceptedAnswers": [
+        "Yedi",
+        "yedi"
+      ],
+      "vocabularyKeys": [
+        "vocab.hafta",
+        "vocab.yedi"
+      ],
+      "payload": {
+        "options": [
+          "Yedi",
+          "On",
+          "Beş",
+          "Üç"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u2.l1.e7",
+      "type": "listeningComprehension",
+      "orderIndex": 6,
+      "promptText": "Прослушайте и выберите правильный перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Понедельник, вторник, среда — рабочие дни.",
+      "acceptedAnswers": [
+        "Понедельник, вторник, среда — рабочие дни"
+      ],
+      "vocabularyKeys": [
+        "vocab.pazartesi",
+        "vocab.sali",
+        "vocab.carsamba"
+      ],
+      "payload": {
+        "audioFileName": "gunler-pazartesi-cuma.mp3",
+        "transcript": "Pazartesi, salı, çarşamba: çalışma günleri.",
+        "options": [
+          "Понедельник, вторник, среда — рабочие дни.",
+          "Суббота и воскресенье — выходные.",
+          "Сегодня пятница, завтра выходной.",
+          "Вчера была среда."
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u2.l1.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите дни недели...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.pazartesi",
+        "vocab.sali",
+        "vocab.carsamba",
+        "vocab.persembe",
+        "vocab.cuma",
+        "vocab.cumartesi",
+        "vocab.pazar",
+        "vocab.hafta",
+        "vocab.gun",
+        "vocab.dun"
+      ],
+      "payload": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "key": "a2.u2",
+  "orderIndex": 1,
+  "titleKey": "unit.a2.u2.title",
+  "theme": "time",
+  "summaryKey": "unit.a2.u2.summary",
+  "levelKey": "a2",
+  "lessonKeys": [
+    "a2.u2.l1",
+    "a2.u2.l2"
+  ]
+}

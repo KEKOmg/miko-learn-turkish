@@ -1,0 +1,205 @@
+{
+  "key": "a1.u1.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a1.u1.l2.title",
+  "kind": "skill",
+  "unitKey": "a1.u1",
+  "vocabularyKeys": [
+    "vocab.nasilsin",
+    "vocab.iyiyim",
+    "vocab.tesekkurler",
+    "vocab.rica-ederim",
+    "vocab.evet",
+    "vocab.hayir"
+  ],
+  "grammarKeys": [
+    "grammar.question-words"
+  ],
+  "exercises": [
+    {
+      "key": "a1.u1.l2.e1",
+      "type": "translateSentence",
+      "orderIndex": 0,
+      "promptText": "Переведите: Nasılsın?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Как дела?",
+      "acceptedAnswers": [
+        "Как дела?",
+        "как дела?",
+        "Как у тебя дела?",
+        "Как твои дела?"
+      ],
+      "vocabularyKeys": [
+        "vocab.nasilsin"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u1.l2.e2",
+      "type": "fillBlank",
+      "orderIndex": 1,
+      "promptText": "Заполните пропуск: Nasılsın? — ______, teşekkürler.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "İyiyim",
+      "acceptedAnswers": [
+        "İyiyim",
+        "iyiyim"
+      ],
+      "vocabularyKeys": [
+        "vocab.iyiyim",
+        "vocab.tesekkurler"
+      ],
+      "payload": {
+        "template": "Nasılsın? — ____, teşekkürler.",
+        "blank": "İyiyim",
+        "options": [
+          "İyiyim",
+          "Merhaba",
+          "Güle güle",
+          "Evet"
+        ]
+      }
+    },
+    {
+      "key": "a1.u1.l2.e3",
+      "type": "multipleChoice",
+      "orderIndex": 2,
+      "promptText": "Что значит «Teşekkürler»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Спасибо",
+      "acceptedAnswers": [
+        "Спасибо"
+      ],
+      "vocabularyKeys": [
+        "vocab.tesekkurler"
+      ],
+      "payload": {
+        "options": [
+          "Спасибо",
+          "Пожалуйста",
+          "Привет",
+          "Да"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u1.l2.e4",
+      "type": "translateWord",
+      "orderIndex": 3,
+      "promptText": "Переведите на турецкий: Да",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Evet",
+      "acceptedAnswers": [
+        "evet",
+        "Evet"
+      ],
+      "vocabularyKeys": [
+        "vocab.evet"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u1.l2.e8",
+      "type": "multipleChoice",
+      "promptText": "Что значит «Hayır»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Нет",
+      "acceptedAnswers": [
+        "Нет",
+        "нет"
+      ],
+      "vocabularyKeys": [
+        "vocab.hayir"
+      ],
+      "payload": {
+        "options": [
+          "Нет",
+          "Да",
+          "Спасибо",
+          "Пожалуйста"
+        ],
+        "correctIndex": 0
+      },
+      "orderIndex": 4
+    },
+    {
+      "key": "a1.u1.l2.e5",
+      "type": "vocabularyReview",
+      "orderIndex": 5,
+      "promptText": "Повторите пройденные слова...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.merhaba",
+        "vocab.nasilsin",
+        "vocab.tesekkurler",
+        "vocab.evet"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u1.l2.e6",
+      "type": "buildSentence",
+      "orderIndex": 6,
+      "promptText": "Составьте предложение: Я в порядке",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Ben iyiyim",
+      "acceptedAnswers": [
+        "Ben iyiyim",
+        "ben iyiyim",
+        "Ben iyiyim."
+      ],
+      "vocabularyKeys": [
+        "vocab.ben",
+        "vocab.iyiyim"
+      ],
+      "payload": {
+        "wordBank": [
+          "Ben",
+          "Merhaba",
+          "iyiyim",
+          "güle"
+        ],
+        "sentenceWords": [
+          "Ben",
+          "iyiyim"
+        ]
+      }
+    },
+    {
+      "key": "a1.u1.l2.e7",
+      "type": "fillBlank",
+      "orderIndex": 7,
+      "promptText": "Заполните пропуск: Спасибо! — ______ ederim.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Rica",
+      "acceptedAnswers": [
+        "Rica",
+        "rica"
+      ],
+      "vocabularyKeys": [
+        "vocab.rica-ederim"
+      ],
+      "payload": {
+        "template": "Teşekkürler! — ____ ederim.",
+        "blank": "Rica",
+        "options": [
+          "Rica",
+          "Merhaba",
+          "Evet",
+          "Su"
+        ]
+      }
+    }
+  ]
+}

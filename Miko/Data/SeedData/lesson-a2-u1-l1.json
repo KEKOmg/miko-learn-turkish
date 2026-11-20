@@ -1,0 +1,230 @@
+{
+  "key": "a2.u1.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a2.u1.l1.title",
+  "kind": "skill",
+  "unitKey": "a2.u1",
+  "vocabularyKeys": [
+    "vocab.buyukanne",
+    "vocab.dede",
+    "vocab.es",
+    "vocab.cocuk",
+    "vocab.torun",
+    "vocab.teyze",
+    "vocab.amca",
+    "vocab.akraba",
+    "vocab.ogul",
+    "vocab.kiz"
+  ],
+  "grammarKeys": [
+    "grammar.possessive-suffixes"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u1.l1.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Torun»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Внук / внучка",
+      "acceptedAnswers": [
+        "Внук / внучка",
+        "внук / внучка"
+      ],
+      "vocabularyKeys": [
+        "vocab.torun"
+      ],
+      "payload": {
+        "options": [
+          "Внук / внучка",
+          "Сын",
+          "Дядя",
+          "Родственник"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u1.l1.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: Дедушка",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Dede",
+      "acceptedAnswers": [
+        "Dede",
+        "dede"
+      ],
+      "vocabularyKeys": [
+        "vocab.dede"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u1.l1.e3",
+      "type": "matchPairs",
+      "orderIndex": 2,
+      "promptText": "Сопоставьте членов семьи:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.buyukanne",
+        "vocab.teyze",
+        "vocab.amca",
+        "vocab.es",
+        "vocab.cocuk"
+      ],
+      "payload": {
+        "pairs": [
+          {
+            "source": "Бабушка",
+            "target": "Büyükanne"
+          },
+          {
+            "source": "Тётя (по маме)",
+            "target": "Teyze"
+          },
+          {
+            "source": "Дядя (по отцу)",
+            "target": "Amca"
+          },
+          {
+            "source": "Супруг(а)",
+            "target": "Eş"
+          },
+          {
+            "source": "Ребёнок",
+            "target": "Çocuk"
+          }
+        ]
+      }
+    },
+    {
+      "key": "a2.u1.l1.e4",
+      "type": "fillBlank",
+      "orderIndex": 3,
+      "promptText": "Заполните пропуск: Ablamın iki ____ var. (У моей сестры двое детей.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "çocuğu",
+      "acceptedAnswers": [
+        "Çocuğu",
+        "çocuğu"
+      ],
+      "vocabularyKeys": [
+        "vocab.cocuk"
+      ],
+      "payload": {
+        "template": "Ablamın iki ____ var.",
+        "blank": "çocuğu",
+        "options": [
+          "çocuğu",
+          "kedisi",
+          "arabası",
+          "evi"
+        ]
+      }
+    },
+    {
+      "key": "a2.u1.l1.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Bu benim büyükannem.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Это моя бабушка.",
+      "acceptedAnswers": [
+        "Это моя бабушка.",
+        "это моя бабушка"
+      ],
+      "vocabularyKeys": [
+        "vocab.buyukanne"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u1.l1.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Мой сын очень маленький.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Oğlum çok küçük.",
+      "acceptedAnswers": [
+        "Oğlum çok küçük.",
+        "oğlum çok küçük"
+      ],
+      "vocabularyKeys": [
+        "vocab.ogul"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Oğlum",
+          "çok",
+          "küçük."
+        ],
+        "wordBank": [
+          "Oğlum",
+          "benim",
+          "çok",
+          "küçük.",
+          "büyük"
+        ]
+      }
+    },
+    {
+      "key": "a2.u1.l1.e7",
+      "type": "listeningComprehension",
+      "orderIndex": 6,
+      "promptText": "Прослушайте и выберите перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Бабушка и мой дедушка — пара.",
+      "acceptedAnswers": [
+        "Бабушка и мой дедушка — пара"
+      ],
+      "vocabularyKeys": [
+        "vocab.buyukanne",
+        "vocab.dede"
+      ],
+      "payload": {
+        "audioFileName": "aile-buyukanne.mp3",
+        "transcript": "Büyükanne ve dedem bir çift.",
+        "options": [
+          "Бабушка и мой дедушка — пара.",
+          "Мама и папа дома.",
+          "Мой брат студент.",
+          "Тётя готовит ужин."
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u1.l1.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова о семье...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.buyukanne",
+        "vocab.dede",
+        "vocab.es",
+        "vocab.cocuk",
+        "vocab.torun",
+        "vocab.teyze",
+        "vocab.amca",
+        "vocab.akraba",
+        "vocab.ogul",
+        "vocab.kiz"
+      ],
+      "payload": null
+    }
+  ]
+}

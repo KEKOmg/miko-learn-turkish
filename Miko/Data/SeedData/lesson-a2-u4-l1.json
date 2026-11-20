@@ -1,0 +1,211 @@
+{
+  "key": "a2.u4.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a2.u4.l1.title",
+  "kind": "skill",
+  "unitKey": "a2.u4",
+  "vocabularyKeys": [
+    "vocab.menu",
+    "vocab.hesap",
+    "vocab.garson",
+    "vocab.lezzetli",
+    "vocab.tuz",
+    "vocab.biber",
+    "vocab.salata",
+    "vocab.tatli",
+    "vocab.ac",
+    "vocab.tok"
+  ],
+  "grammarKeys": [
+    "grammar.wish-want"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u4.l1.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Hesap»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Счёт",
+      "acceptedAnswers": [
+        "Счёт",
+        "счёт"
+      ],
+      "vocabularyKeys": [
+        "vocab.hesap"
+      ],
+      "payload": {
+        "options": [
+          "Счёт",
+          "Меню",
+          "Чаевые",
+          "Салат"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u4.l1.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: официант",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Garson",
+      "acceptedAnswers": [
+        "Garson",
+        "garson"
+      ],
+      "vocabularyKeys": [
+        "vocab.garson"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u4.l1.e3",
+      "type": "fillBlank",
+      "orderIndex": 2,
+      "promptText": "Заполните пропуск: Yemek çok ____ idi. (Еда была очень вкусная.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "lezzetli",
+      "acceptedAnswers": [
+        "Lezzetli",
+        "lezzetli"
+      ],
+      "vocabularyKeys": [
+        "vocab.lezzetli"
+      ],
+      "payload": {
+        "template": "Yemek çok ____ idi.",
+        "blank": "lezzetli",
+        "options": [
+          "lezzetli",
+          "pahalı",
+          "aç",
+          "tok"
+        ]
+      }
+    },
+    {
+      "key": "a2.u4.l1.e4",
+      "type": "multipleChoice",
+      "orderIndex": 3,
+      "promptText": "Как попросить меню?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Menü alabilir miyim?",
+      "acceptedAnswers": [
+        "Menü alabilir miyim?",
+        "menü alabilir miyim?"
+      ],
+      "vocabularyKeys": [],
+      "payload": {
+        "options": [
+          "Menü alabilir miyim?",
+          "Hesap lütfen!",
+          "Su istiyorum.",
+          "Afiyet olsun!"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u4.l1.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Kebap yemek istiyorum.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Я хочу съесть кебаб.",
+      "acceptedAnswers": [
+        "Я хочу съесть кебаб.",
+        "я хочу съесть кебаб",
+        "Я хочу кебаб."
+      ],
+      "vocabularyKeys": [
+        "vocab.kebap"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u4.l1.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Я голоден.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Çok açım.",
+      "acceptedAnswers": [
+        "Çok açım.",
+        "çok açım"
+      ],
+      "vocabularyKeys": [
+        "vocab.ac"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Çok",
+          "açım."
+        ],
+        "wordBank": [
+          "açım.",
+          "Çok",
+          "tokum",
+          "susadım"
+        ]
+      }
+    },
+    {
+      "key": "a2.u4.l1.e7",
+      "type": "listeningComprehension",
+      "orderIndex": 6,
+      "promptText": "Прослушайте и выберите правильный перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Официант, можно счёт?",
+      "acceptedAnswers": [
+        "Официант, можно счёт"
+      ],
+      "vocabularyKeys": [
+        "vocab.garson",
+        "vocab.hesap"
+      ],
+      "payload": {
+        "audioFileName": "garson-hesap-lutfen.mp3",
+        "transcript": "Garson! Hesabı alabilir miyim?",
+        "options": [
+          "Официант, можно счёт?",
+          "Официант, ещё одно меню!",
+          "Я хочу заказать салат.",
+          "Спасибо, было очень вкусно!"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u4.l1.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова о ресторане...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.menu",
+        "vocab.hesap",
+        "vocab.garson",
+        "vocab.lezzetli",
+        "vocab.tuz",
+        "vocab.biber",
+        "vocab.salata",
+        "vocab.tatli",
+        "vocab.ac",
+        "vocab.tok"
+      ],
+      "payload": null
+    }
+  ]
+}

@@ -1,0 +1,1732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20000000000000000000001 /* MikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* MikoApp.swift */; };
+		B20000000000000000000002 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* AppContainer.swift */; };
+		B20000000000000000000003 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* AppState.swift */; };
+		B20000000000000000000004 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* RootView.swift */; };
+		B20000000000000000000005 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* Language.swift */; };
+		B20000000000000000000006 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000006 /* Course.swift */; };
+		B20000000000000000000007 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000007 /* Level.swift */; };
+		B20000000000000000000008 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000008 /* Unit.swift */; };
+		B20000000000000000000009 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000009 /* Lesson.swift */; };
+		B2000000000000000000000A /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000A /* Exercise.swift */; };
+		B2000000000000000000000B /* VocabularyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000B /* VocabularyItem.swift */; };
+		B2000000000000000000000C /* GrammarTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000C /* GrammarTopic.swift */; };
+		B2000000000000000000000D /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000D /* UserProfile.swift */; };
+		B2000000000000000000000E /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000E /* UserProgress.swift */; };
+		B2000000000000000000000F /* LessonProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000000F /* LessonProgress.swift */; };
+		B20000000000000000000010 /* ExerciseProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010 /* ExerciseProgress.swift */; };
+		B20000000000000000000011 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000011 /* Achievement.swift */; };
+		B20000000000000000000012 /* UserAchievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000012 /* UserAchievement.swift */; };
+		B20000000000000000000013 /* DailyGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000013 /* DailyGoal.swift */; };
+		B20000000000000000000014 /* Streak.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000014 /* Streak.swift */; };
+		B20000000000000000000015 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000015 /* UserSettings.swift */; };
+		B20000000000000000000016 /* ExerciseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000016 /* ExerciseType.swift */; };
+		B20000000000000000000017 /* CEFRLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000017 /* CEFRLevel.swift */; };
+		B20000000000000000000018 /* LessonKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000018 /* LessonKind.swift */; };
+		B20000000000000000000019 /* PartOfSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000019 /* PartOfSpeech.swift */; };
+		B2000000000000000000001A /* LessonProgressStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000001A /* LessonProgressStatus.swift */; };
+		B2000000000000000000001B /* ModelContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000001B /* ModelContainerFactory.swift */; };
+		B2000000000000000000001C /* MigrationPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000001C /* MigrationPlan.swift */; };
+		B200000000000000000000D8 /* SchemaV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000D8 /* SchemaV1.swift */; };
+		B2000000000000000000001D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000001D /* Assets.xcassets */; };
+		B2000000000000000000001E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000001E /* Localizable.xcstrings */; };
+		B200000000000000000000E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000E1 /* LaunchScreen.storyboard */; };
+		B200000000000000000000E2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000E2 /* OnboardingView.swift */; };
+		B200000000000000000000E3 /* DailyReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000E3 /* DailyReminderScheduler.swift */; };
+		B2000000000000000000001F /* MikoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000001F /* MikoTests.swift */; };
+		B20000000000000000000020 /* MikoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000020 /* MikoUITests.swift */; };
+		B20000000000000000000024 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000024 /* Color+Hex.swift */; };
+		B20000000000000000000025 /* Font+Lexend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000025 /* Font+Lexend.swift */; };
+		B20000000000000000000026 /* FontRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000026 /* FontRegistrar.swift */; };
+		B20000000000000000000027 /* TDColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000027 /* TDColor.swift */; };
+		B20000000000000000000028 /* TDTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000028 /* TDTypography.swift */; };
+		B20000000000000000000029 /* TDSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000029 /* TDSpacing.swift */; };
+		B2000000000000000000002A /* TDCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000002A /* TDCornerRadius.swift */; };
+		B2000000000000000000002B /* TDShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000002B /* TDShadow.swift */; };
+		B2000000000000000000002C /* TDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000002C /* TDButton.swift */; };
+		B2000000000000000000002D /* TDCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000002D /* TDCard.swift */; };
+		B2000000000000000000002E /* TDProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000002E /* TDProgressBar.swift */; };
+		B2000000000000000000002F /* TDStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000002F /* TDStatView.swift */; };
+		B20000000000000000000030 /* TDXPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000030 /* TDXPView.swift */; };
+		B20000000000000000000031 /* TDHeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000031 /* TDHeartView.swift */; };
+		B20000000000000000000032 /* TDStreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000032 /* TDStreakView.swift */; };
+		B20000000000000000000033 /* TDAchievementBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000033 /* TDAchievementBadge.swift */; };
+		B20000000000000000000034 /* TDTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000034 /* TDTabBar.swift */; };
+		B20000000000000000000035 /* DesignSystemPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000035 /* DesignSystemPreview.swift */; };
+		B20000000000000000000036 /* Lexend.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000036 /* Lexend.ttf */; };
+		B20000000000000000000037 /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000037 /* LocalizationTests.swift */; };
+		B20000000000000000000038 /* FontRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000038 /* FontRegistrationTests.swift */; };
+		B20000000000000000000039 /* ExercisePayloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000039 /* ExercisePayloads.swift */; };
+		B2000000000000000000003A /* ContentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000003A /* ContentError.swift */; };
+		B2000000000000000000003B /* KeyedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000003B /* KeyedContent.swift */; };
+		B2000000000000000000003C /* BundleContentSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000003C /* BundleContentSource.swift */; };
+		B2000000000000000000003D /* ContentValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000003D /* ContentValidator.swift */; };
+		B2000000000000000000003E /* ContentImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000003E /* ContentImporter.swift */; };
+		B2000000000000000000003F /* ContentBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000003F /* ContentBootstrap.swift */; };
+		B20000000000000000000040 /* CourseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000040 /* CourseRepository.swift */; };
+		B20000000000000000000041 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000041 /* JSONValue.swift */; };
+		B20000000000000000000042 /* CourseContentDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000042 /* CourseContentDTO.swift */; };
+		B20000000000000000000043 /* LevelContentDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000043 /* LevelContentDTO.swift */; };
+		B20000000000000000000044 /* UnitContentDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000044 /* UnitContentDTO.swift */; };
+		B20000000000000000000045 /* LessonContentDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000045 /* LessonContentDTO.swift */; };
+		B20000000000000000000046 /* ExerciseContentDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000046 /* ExerciseContentDTO.swift */; };
+		B20000000000000000000047 /* VocabularyContentDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000047 /* VocabularyContentDTO.swift */; };
+		B20000000000000000000048 /* GrammarContentDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000048 /* GrammarContentDTO.swift */; };
+		B20000000000000000000049 /* course.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000049 /* course.json */; };
+		B2000000000000000000004A /* level-a1.json in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000004A /* level-a1.json */; };
+		B20000000000000000000010D /* lesson-a2-u7-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000110 /* lesson-a2-u7-l2.json */; };
+		B20000000000000000000010C /* lesson-a2-u7-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010F /* lesson-a2-u7-l1.json */; };
+		B20000000000000000000010B /* lesson-a2-u6-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010E /* lesson-a2-u6-l2.json */; };
+		B20000000000000000000010A /* lesson-a2-u6-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010D /* lesson-a2-u6-l1.json */; };
+		B200000000000000000000109 /* lesson-a2-u5-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010C /* lesson-a2-u5-l2.json */; };
+		B200000000000000000000108 /* lesson-a2-u5-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010B /* lesson-a2-u5-l1.json */; };
+		B200000000000000000000107 /* lesson-a2-u4-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010A /* lesson-a2-u4-l2.json */; };
+		B200000000000000000000106 /* lesson-a2-u4-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000109 /* lesson-a2-u4-l1.json */; };
+		B200000000000000000000105 /* lesson-a2-u3-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000108 /* lesson-a2-u3-l2.json */; };
+		B200000000000000000000104 /* lesson-a2-u3-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000107 /* lesson-a2-u3-l1.json */; };
+		B200000000000000000000103 /* lesson-a2-u2-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000106 /* lesson-a2-u2-l2.json */; };
+		B200000000000000000000102 /* lesson-a2-u2-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000105 /* lesson-a2-u2-l1.json */; };
+		B200000000000000000000101 /* lesson-a2-u1-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000104 /* lesson-a2-u1-l2.json */; };
+		B200000000000000000000100 /* lesson-a2-u1-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000103 /* lesson-a2-u1-l1.json */; };
+		B200000000000000000000FF /* unit-a2-u7.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000102 /* unit-a2-u7.json */; };
+		B200000000000000000000FE /* unit-a2-u6.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000101 /* unit-a2-u6.json */; };
+		B200000000000000000000FD /* unit-a2-u5.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000100 /* unit-a2-u5.json */; };
+		B200000000000000000000FC /* unit-a2-u4.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000FF /* unit-a2-u4.json */; };
+		B200000000000000000000FB /* unit-a2-u3.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000FE /* unit-a2-u3.json */; };
+		B200000000000000000000FA /* unit-a2-u2.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000FD /* unit-a2-u2.json */; };
+		B200000000000000000000F9 /* unit-a2-u1.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000FC /* unit-a2-u1.json */; };
+		B200000000000000000000F8 /* level-a2.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000F9 /* level-a2.json */; };
+		B2000000000000000000004B /* unit-a1-u1.json in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000004B /* unit-a1-u1.json */; };
+		B2000000000000000000004C /* unit-a1-u2.json in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000004C /* unit-a1-u2.json */; };
+		B2000000000000000000004D /* unit-a1-u3.json in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000004D /* unit-a1-u3.json */; };
+		B2000000000000000000004E /* unit-a1-u4.json in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000004E /* unit-a1-u4.json */; };
+		B2000000000000000000004F /* lesson-a1-u1-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000004F /* lesson-a1-u1-l1.json */; };
+		B20000000000000000000050 /* lesson-a1-u1-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000050 /* lesson-a1-u1-l2.json */; };
+		B20000000000000000000051 /* lesson-a1-u2-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000051 /* lesson-a1-u2-l1.json */; };
+		B20000000000000000000052 /* lesson-a1-u2-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000052 /* lesson-a1-u2-l2.json */; };
+		B20000000000000000000053 /* lesson-a1-u3-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000053 /* lesson-a1-u3-l1.json */; };
+		B20000000000000000000054 /* lesson-a1-u3-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000054 /* lesson-a1-u3-l2.json */; };
+		B20000000000000000000055 /* lesson-a1-u4-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000055 /* lesson-a1-u4-l1.json */; };
+		B20000000000000000000056 /* lesson-a1-u4-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000056 /* lesson-a1-u4-l2.json */; };
+		B20000000000000000000057 /* vocabulary.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000057 /* vocabulary.json */; };
+		B20000000000000000000058 /* grammar.json in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000058 /* grammar.json */; };
+		B200000000000000000000E4 /* unit-a1-u5.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000E4 /* unit-a1-u5.json */; };
+		B200000000000000000000E5 /* unit-a1-u6.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000E5 /* unit-a1-u6.json */; };
+		B200000000000000000000E6 /* unit-a1-u7.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000E6 /* unit-a1-u7.json */; };
+		B200000000000000000000E7 /* lesson-a1-u5-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000E7 /* lesson-a1-u5-l1.json */; };
+		B200000000000000000000E8 /* lesson-a1-u5-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000E8 /* lesson-a1-u5-l2.json */; };
+		B200000000000000000000E9 /* lesson-a1-u6-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000E9 /* lesson-a1-u6-l1.json */; };
+		B200000000000000000000EA /* lesson-a1-u6-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000EA /* lesson-a1-u6-l2.json */; };
+		B200000000000000000000EB /* lesson-a1-u7-l1.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000EB /* lesson-a1-u7-l1.json */; };
+		B200000000000000000000EC /* lesson-a1-u7-l2.json in Resources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000EC /* lesson-a1-u7-l2.json */; };
+		B20000000000000000000059 /* ContentTestSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000059 /* ContentTestSupport.swift */; };
+		B2000000000000000000005A /* ContentDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000005A /* ContentDecodingTests.swift */; };
+		B2000000000000000000005B /* ContentValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000005B /* ContentValidatorTests.swift */; };
+		B2000000000000000000005C /* ContentImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000005C /* ContentImporterTests.swift */; };
+		B2000000000000000000005D /* ContentIntegrityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000005D /* ContentIntegrityTests.swift */; };
+		B20000000000000000000062 /* UserBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000062 /* UserBootstrap.swift */; };
+		B20000000000000000000063 /* AppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000063 /* AppTab.swift */; };
+		B20000000000000000000064 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000064 /* MainTabView.swift */; };
+		B20000000000000000000065 /* PlaceholderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000065 /* PlaceholderScreen.swift */; };
+		B20000000000000000000066 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000066 /* HomeView.swift */; };
+		B20000000000000000000067 /* CourseMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000067 /* CourseMapView.swift */; };
+		B20000000000000000000068 /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000068 /* RankingView.swift */; };
+		B20000000000000000000069 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000069 /* ShopView.swift */; };
+		B2000000000000000000006A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000006A /* ProfileView.swift */; };
+		B2000000000000000000006B /* ExerciseAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000006B /* ExerciseAnswer.swift */; };
+		B2000000000000000000006C /* TurkishTextNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000006C /* TurkishTextNormalizer.swift */; };
+		B2000000000000000000006D /* ExerciseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000006D /* ExerciseValidator.swift */; };
+		B2000000000000000000006E /* ExerciseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000006E /* ExerciseServices.swift */; };
+		B2000000000000000000006F /* AVAudioProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000006F /* AVAudioProvider.swift */; };
+		B20000000000000000000070 /* MockSpeechProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000070 /* MockSpeechProvider.swift */; };
+		B200000000000000000000E0 /* AppleSpeechProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000E0 /* AppleSpeechProvider.swift */; };
+		B200000000000000000000F0 /* AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000F0 /* AuthModels.swift */; };
+		B200000000000000000000F1 /* SupabaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000F1 /* SupabaseConfiguration.swift */; };
+		B200000000000000000000F2 /* KeychainSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000F2 /* KeychainSessionStore.swift */; };
+		B200000000000000000000F3 /* SupabaseAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000F3 /* SupabaseAuthClient.swift */; };
+		B200000000000000000000F4 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000F4 /* AuthStore.swift */; };
+		B200000000000000000000F5 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000F5 /* AuthView.swift */; };
+		B200000000000000000000F6 /* AccountCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000F6 /* AccountCardView.swift */; };
+		B200000000000000000000F7 /* AuthValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000F7 /* AuthValidationTests.swift */; };
+		B20000000000000000000071 /* ExerciseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000071 /* ExerciseFactory.swift */; };
+		B20000000000000000000072 /* ExerciseComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000072 /* ExerciseComponents.swift */; };
+		B20000000000000000000073 /* MultipleChoiceExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000073 /* MultipleChoiceExerciseView.swift */; };
+		B20000000000000000000074 /* TranslateWordExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000074 /* TranslateWordExerciseView.swift */; };
+		B20000000000000000000075 /* TranslateSentenceExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000075 /* TranslateSentenceExerciseView.swift */; };
+		B20000000000000000000076 /* BuildSentenceExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000076 /* BuildSentenceExerciseView.swift */; };
+		B20000000000000000000077 /* MatchPairsExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000077 /* MatchPairsExerciseView.swift */; };
+		B20000000000000000000078 /* FillBlankExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000078 /* FillBlankExerciseView.swift */; };
+		B20000000000000000000079 /* ListeningExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000079 /* ListeningExerciseView.swift */; };
+		B2000000000000000000007A /* PronunciationExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000007A /* PronunciationExerciseView.swift */; };
+		B2000000000000000000007B /* VocabularyReviewExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000007B /* VocabularyReviewExerciseView.swift */; };
+		B2000000000000000000007C /* TurkishTextNormalizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000007C /* TurkishTextNormalizerTests.swift */; };
+		B2000000000000000000007D /* ExercisePayloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000007D /* ExercisePayloadTests.swift */; };
+		B2000000000000000000007E /* ExerciseValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000000000000000000007E /* ExerciseValidatorTests.swift */; };
+		B20000000000000000000080 /* LessonFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000080 /* LessonFlowViewModel.swift */; };
+		B20000000000000000000081 /* LessonFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000081 /* LessonFlowView.swift */; };
+		B20000000000000000000082 /* GrammarSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000082 /* GrammarSheet.swift */; };
+		B20000000000000000000083 /* LessonLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000083 /* LessonLauncher.swift */; };
+		B20000000000000000000084 /* LessonResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000084 /* LessonResultsView.swift */; };
+		B20000000000000000000085 /* LessonProgressRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000085 /* LessonProgressRepository.swift */; };
+		B20000000000000000000090 /* LessonFlowViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000090 /* LessonFlowViewModelTests.swift */; };
+		B20000000000000000000091 /* CourseMapSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000091 /* CourseMapSnapshot.swift */; };
+		B20000000000000000000092 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000092 /* HomeViewModel.swift */; };
+		B20000000000000000000093 /* MascotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000093 /* MascotView.swift */; };
+		B20000000000000000000094 /* HomeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000094 /* HomeComponents.swift */; };
+		B20000000000000000000095 /* CourseMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000095 /* CourseMapViewModel.swift */; };
+		B20000000000000000000096 /* LessonNodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000096 /* LessonNodeView.swift */; };
+		B200000000000000000000A0 /* LessonNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000A0 /* LessonNavigationTests.swift */; };
+		B200000000000000000000C0 /* Hearts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000C0 /* Hearts.swift */; };
+		B200000000000000000000C1 /* HeartsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000C1 /* HeartsRepository.swift */; };
+		B200000000000000000000C2 /* HeartsRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000C2 /* HeartsRepositoryTests.swift */; };
+		B200000000000000000000C3 /* AchievementCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000C3 /* AchievementCatalog.swift */; };
+		B200000000000000000000C4 /* AchievementBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000C4 /* AchievementBootstrap.swift */; };
+		B200000000000000000000C5 /* AchievementEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000C5 /* AchievementEngine.swift */; };
+		B200000000000000000000C6 /* AchievementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000C6 /* AchievementRepository.swift */; };
+		B200000000000000000000C7 /* AchievementEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000C7 /* AchievementEngineTests.swift */; };
+		B200000000000000000000C8 /* AchievementRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000C8 /* AchievementRepositoryTests.swift */; };
+		B200000000000000000000C9 /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000C9 /* CalendarDay.swift */; };
+		B200000000000000000000CA /* GamificationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000CA /* GamificationRepository.swift */; };
+		B200000000000000000000CB /* GamificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000CB /* GamificationService.swift */; };
+		B200000000000000000000CC /* GamificationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000CC /* GamificationServiceTests.swift */; };
+		B200000000000000000000CD /* AppContainerEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000CD /* AppContainerEnvironment.swift */; };
+		B200000000000000000000CE /* HeartsDepletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000CE /* HeartsDepletedView.swift */; };
+		B200000000000000000000CF /* LessonFlowHeartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000CF /* LessonFlowHeartsTests.swift */; };
+		B200000000000000000000D0 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000D0 /* Haptics.swift */; };
+		B200000000000000000000DE /* ProgressRestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000FB /* ProgressRestoreService.swift */; };
+		B200000000000000000000D1 /* ProfileSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000D1 /* ProfileSnapshot.swift */; };
+		B200000000000000000000D2 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000D2 /* ProfileViewModel.swift */; };
+		B200000000000000000000D3 /* ProfileViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000D3 /* ProfileViewModelTests.swift */; };
+		B200000000000000000000D4 /* HeartsBugRegressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000D4 /* HeartsBugRegressionTests.swift */; };
+		B200000000000000000000D9 /* SchemaVersioningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000D9 /* SchemaVersioningTests.swift */; };
+		B200000000000000000000DA /* StoreRecoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000DA /* StoreRecoveryTests.swift */; };
+		B200000000000000000000DB /* LeaderboardDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000F8 /* LeaderboardDecodingTests.swift */; };
+		B200000000000000000000DD /* ProgressRestoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000FA /* ProgressRestoreTests.swift */; };
+		B200000000000000000000D5 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000D5 /* ShopViewModel.swift */; };
+		B200000000000000000000D6 /* ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000D6 /* ShopTests.swift */; };
+		B200000000000000000000D7 /* PracticeModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100000000000000000000D7 /* PracticeModeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D00000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700000000000000000000001;
+			remoteInfo = Miko;
+		};
+		D00000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700000000000000000000001;
+			remoteInfo = Miko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10000000000000000000001 /* MikoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikoApp.swift; sourceTree = "<group>"; };
+		F10000000000000000000002 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		F10000000000000000000003 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F10000000000000000000004 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F10000000000000000000005 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		F10000000000000000000006 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		F10000000000000000000007 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		F10000000000000000000008 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		F10000000000000000000009 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		F1000000000000000000000A /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		F1000000000000000000000B /* VocabularyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyItem.swift; sourceTree = "<group>"; };
+		F1000000000000000000000C /* GrammarTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarTopic.swift; sourceTree = "<group>"; };
+		F1000000000000000000000D /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		F1000000000000000000000E /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
+		F1000000000000000000000F /* LessonProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonProgress.swift; sourceTree = "<group>"; };
+		F10000000000000000000010 /* ExerciseProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseProgress.swift; sourceTree = "<group>"; };
+		F10000000000000000000011 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		F10000000000000000000012 /* UserAchievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAchievement.swift; sourceTree = "<group>"; };
+		F10000000000000000000013 /* DailyGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoal.swift; sourceTree = "<group>"; };
+		F10000000000000000000014 /* Streak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streak.swift; sourceTree = "<group>"; };
+		F10000000000000000000015 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		F10000000000000000000016 /* ExerciseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseType.swift; sourceTree = "<group>"; };
+		F10000000000000000000017 /* CEFRLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEFRLevel.swift; sourceTree = "<group>"; };
+		F10000000000000000000018 /* LessonKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonKind.swift; sourceTree = "<group>"; };
+		F10000000000000000000019 /* PartOfSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartOfSpeech.swift; sourceTree = "<group>"; };
+		F1000000000000000000001A /* LessonProgressStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonProgressStatus.swift; sourceTree = "<group>"; };
+		F1000000000000000000001B /* ModelContainerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContainerFactory.swift; sourceTree = "<group>"; };
+		F1000000000000000000001C /* MigrationPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationPlan.swift; sourceTree = "<group>"; };
+		F100000000000000000000D8 /* SchemaV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemaV1.swift; sourceTree = "<group>"; };
+		F1000000000000000000001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1000000000000000000001E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F1000000000000000000001F /* MikoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikoTests.swift; sourceTree = "<group>"; };
+		F10000000000000000000020 /* MikoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikoUITests.swift; sourceTree = "<group>"; };
+		F10000000000000000000021 /* Miko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10000000000000000000022 /* MikoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10000000000000000000023 /* MikoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10000000000000000000024 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		F10000000000000000000025 /* Font+Lexend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Lexend.swift"; sourceTree = "<group>"; };
+		F10000000000000000000026 /* FontRegistrar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontRegistrar.swift; sourceTree = "<group>"; };
+		F10000000000000000000027 /* TDColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDColor.swift; sourceTree = "<group>"; };
+		F10000000000000000000028 /* TDTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDTypography.swift; sourceTree = "<group>"; };
+		F10000000000000000000029 /* TDSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDSpacing.swift; sourceTree = "<group>"; };
+		F1000000000000000000002A /* TDCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDCornerRadius.swift; sourceTree = "<group>"; };
+		F1000000000000000000002B /* TDShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDShadow.swift; sourceTree = "<group>"; };
+		F1000000000000000000002C /* TDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDButton.swift; sourceTree = "<group>"; };
+		F1000000000000000000002D /* TDCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDCard.swift; sourceTree = "<group>"; };
+		F1000000000000000000002E /* TDProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDProgressBar.swift; sourceTree = "<group>"; };
+		F1000000000000000000002F /* TDStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDStatView.swift; sourceTree = "<group>"; };
+		F10000000000000000000030 /* TDXPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDXPView.swift; sourceTree = "<group>"; };
+		F10000000000000000000031 /* TDHeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDHeartView.swift; sourceTree = "<group>"; };
+		F10000000000000000000032 /* TDStreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDStreakView.swift; sourceTree = "<group>"; };
+		F10000000000000000000033 /* TDAchievementBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDAchievementBadge.swift; sourceTree = "<group>"; };
+		F10000000000000000000034 /* TDTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDTabBar.swift; sourceTree = "<group>"; };
+		F10000000000000000000035 /* DesignSystemPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemPreview.swift; sourceTree = "<group>"; };
+		F10000000000000000000036 /* Lexend.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lexend.ttf; sourceTree = "<group>"; };
+		F10000000000000000000037 /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
+		F10000000000000000000038 /* FontRegistrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontRegistrationTests.swift; sourceTree = "<group>"; };
+		F10000000000000000000039 /* ExercisePayloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePayloads.swift; sourceTree = "<group>"; };
+		F1000000000000000000003A /* ContentError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentError.swift; sourceTree = "<group>"; };
+		F1000000000000000000003B /* KeyedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyedContent.swift; sourceTree = "<group>"; };
+		F1000000000000000000003C /* BundleContentSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleContentSource.swift; sourceTree = "<group>"; };
+		F1000000000000000000003D /* ContentValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentValidator.swift; sourceTree = "<group>"; };
+		F1000000000000000000003E /* ContentImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentImporter.swift; sourceTree = "<group>"; };
+		F1000000000000000000003F /* ContentBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBootstrap.swift; sourceTree = "<group>"; };
+		F10000000000000000000040 /* CourseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRepository.swift; sourceTree = "<group>"; };
+		F10000000000000000000041 /* JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		F10000000000000000000042 /* CourseContentDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseContentDTO.swift; sourceTree = "<group>"; };
+		F10000000000000000000043 /* LevelContentDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelContentDTO.swift; sourceTree = "<group>"; };
+		F10000000000000000000044 /* UnitContentDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitContentDTO.swift; sourceTree = "<group>"; };
+		F10000000000000000000045 /* LessonContentDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonContentDTO.swift; sourceTree = "<group>"; };
+		F10000000000000000000046 /* ExerciseContentDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseContentDTO.swift; sourceTree = "<group>"; };
+		F10000000000000000000047 /* VocabularyContentDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyContentDTO.swift; sourceTree = "<group>"; };
+		F10000000000000000000048 /* GrammarContentDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarContentDTO.swift; sourceTree = "<group>"; };
+		F10000000000000000000049 /* course.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = course.json; sourceTree = "<group>"; };
+		F1000000000000000000004A /* level-a1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "level-a1.json"; sourceTree = "<group>"; };
+		F100000000000000000000110 /* lesson-a2-u7-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u7-l2.json"; sourceTree = "<group>"; };
+		F10000000000000000000010F /* lesson-a2-u7-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u7-l1.json"; sourceTree = "<group>"; };
+		F10000000000000000000010E /* lesson-a2-u6-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u6-l2.json"; sourceTree = "<group>"; };
+		F10000000000000000000010D /* lesson-a2-u6-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u6-l1.json"; sourceTree = "<group>"; };
+		F10000000000000000000010C /* lesson-a2-u5-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u5-l2.json"; sourceTree = "<group>"; };
+		F10000000000000000000010B /* lesson-a2-u5-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u5-l1.json"; sourceTree = "<group>"; };
+		F10000000000000000000010A /* lesson-a2-u4-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u4-l2.json"; sourceTree = "<group>"; };
+		F100000000000000000000109 /* lesson-a2-u4-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u4-l1.json"; sourceTree = "<group>"; };
+		F100000000000000000000108 /* lesson-a2-u3-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u3-l2.json"; sourceTree = "<group>"; };
+		F100000000000000000000107 /* lesson-a2-u3-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u3-l1.json"; sourceTree = "<group>"; };
+		F100000000000000000000106 /* lesson-a2-u2-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u2-l2.json"; sourceTree = "<group>"; };
+		F100000000000000000000105 /* lesson-a2-u2-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u2-l1.json"; sourceTree = "<group>"; };
+		F100000000000000000000104 /* lesson-a2-u1-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u1-l2.json"; sourceTree = "<group>"; };
+		F100000000000000000000103 /* lesson-a2-u1-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a2-u1-l1.json"; sourceTree = "<group>"; };
+		F100000000000000000000102 /* unit-a2-u7.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a2-u7.json"; sourceTree = "<group>"; };
+		F100000000000000000000101 /* unit-a2-u6.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a2-u6.json"; sourceTree = "<group>"; };
+		F100000000000000000000100 /* unit-a2-u5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a2-u5.json"; sourceTree = "<group>"; };
+		F100000000000000000000FF /* unit-a2-u4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a2-u4.json"; sourceTree = "<group>"; };
+		F100000000000000000000FE /* unit-a2-u3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a2-u3.json"; sourceTree = "<group>"; };
+		F100000000000000000000FD /* unit-a2-u2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a2-u2.json"; sourceTree = "<group>"; };
+		F100000000000000000000FC /* unit-a2-u1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a2-u1.json"; sourceTree = "<group>"; };
+		F100000000000000000000F9 /* level-a2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "level-a2.json"; sourceTree = "<group>"; };
+		F1000000000000000000004B /* unit-a1-u1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a1-u1.json"; sourceTree = "<group>"; };
+		F1000000000000000000004C /* unit-a1-u2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a1-u2.json"; sourceTree = "<group>"; };
+		F1000000000000000000004D /* unit-a1-u3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a1-u3.json"; sourceTree = "<group>"; };
+		F1000000000000000000004E /* unit-a1-u4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a1-u4.json"; sourceTree = "<group>"; };
+		F1000000000000000000004F /* lesson-a1-u1-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u1-l1.json"; sourceTree = "<group>"; };
+		F10000000000000000000050 /* lesson-a1-u1-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u1-l2.json"; sourceTree = "<group>"; };
+		F10000000000000000000051 /* lesson-a1-u2-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u2-l1.json"; sourceTree = "<group>"; };
+		F10000000000000000000052 /* lesson-a1-u2-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u2-l2.json"; sourceTree = "<group>"; };
+		F10000000000000000000053 /* lesson-a1-u3-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u3-l1.json"; sourceTree = "<group>"; };
+		F10000000000000000000054 /* lesson-a1-u3-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u3-l2.json"; sourceTree = "<group>"; };
+		F10000000000000000000055 /* lesson-a1-u4-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u4-l1.json"; sourceTree = "<group>"; };
+		F10000000000000000000056 /* lesson-a1-u4-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u4-l2.json"; sourceTree = "<group>"; };
+		F10000000000000000000057 /* vocabulary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocabulary.json; sourceTree = "<group>"; };
+		F10000000000000000000058 /* grammar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = grammar.json; sourceTree = "<group>"; };
+		F100000000000000000000E4 /* unit-a1-u5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a1-u5.json"; sourceTree = "<group>"; };
+		F100000000000000000000E5 /* unit-a1-u6.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a1-u6.json"; sourceTree = "<group>"; };
+		F100000000000000000000E6 /* unit-a1-u7.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unit-a1-u7.json"; sourceTree = "<group>"; };
+		F100000000000000000000E7 /* lesson-a1-u5-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u5-l1.json"; sourceTree = "<group>"; };
+		F100000000000000000000E8 /* lesson-a1-u5-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u5-l2.json"; sourceTree = "<group>"; };
+		F100000000000000000000E9 /* lesson-a1-u6-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u6-l1.json"; sourceTree = "<group>"; };
+		F100000000000000000000EA /* lesson-a1-u6-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u6-l2.json"; sourceTree = "<group>"; };
+		F100000000000000000000EB /* lesson-a1-u7-l1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u7-l1.json"; sourceTree = "<group>"; };
+		F100000000000000000000EC /* lesson-a1-u7-l2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lesson-a1-u7-l2.json"; sourceTree = "<group>"; };
+		F10000000000000000000059 /* ContentTestSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTestSupport.swift; sourceTree = "<group>"; };
+		F1000000000000000000005A /* ContentDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDecodingTests.swift; sourceTree = "<group>"; };
+		F1000000000000000000005B /* ContentValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentValidatorTests.swift; sourceTree = "<group>"; };
+		F1000000000000000000005C /* ContentImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentImporterTests.swift; sourceTree = "<group>"; };
+		F1000000000000000000005D /* ContentIntegrityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentIntegrityTests.swift; sourceTree = "<group>"; };
+		F10000000000000000000062 /* UserBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBootstrap.swift; sourceTree = "<group>"; };
+		F10000000000000000000063 /* AppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTab.swift; sourceTree = "<group>"; };
+		F10000000000000000000064 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		F10000000000000000000065 /* PlaceholderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderScreen.swift; sourceTree = "<group>"; };
+		F10000000000000000000066 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F10000000000000000000067 /* CourseMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseMapView.swift; sourceTree = "<group>"; };
+		F10000000000000000000068 /* RankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
+		F10000000000000000000069 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		F1000000000000000000006A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F1000000000000000000006B /* ExerciseAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseAnswer.swift; sourceTree = "<group>"; };
+		F1000000000000000000006C /* TurkishTextNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkishTextNormalizer.swift; sourceTree = "<group>"; };
+		F1000000000000000000006D /* ExerciseValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseValidator.swift; sourceTree = "<group>"; };
+		F1000000000000000000006E /* ExerciseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseServices.swift; sourceTree = "<group>"; };
+		F1000000000000000000006F /* AVAudioProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioProvider.swift; sourceTree = "<group>"; };
+		F10000000000000000000070 /* MockSpeechProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSpeechProvider.swift; sourceTree = "<group>"; };
+		F100000000000000000000E0 /* AppleSpeechProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSpeechProvider.swift; sourceTree = "<group>"; };
+		F100000000000000000000F0 /* AuthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModels.swift; sourceTree = "<group>"; };
+		F100000000000000000000F1 /* SupabaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseConfiguration.swift; sourceTree = "<group>"; };
+		F100000000000000000000F2 /* KeychainSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSessionStore.swift; sourceTree = "<group>"; };
+		F100000000000000000000F3 /* SupabaseAuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseAuthClient.swift; sourceTree = "<group>"; };
+		F100000000000000000000F4 /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		F100000000000000000000F5 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		F100000000000000000000F6 /* AccountCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCardView.swift; sourceTree = "<group>"; };
+		F100000000000000000000F7 /* AuthValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthValidationTests.swift; sourceTree = "<group>"; };
+		F10000000000000000000071 /* ExerciseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseFactory.swift; sourceTree = "<group>"; };
+		F10000000000000000000072 /* ExerciseComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseComponents.swift; sourceTree = "<group>"; };
+		F10000000000000000000073 /* MultipleChoiceExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceExerciseView.swift; sourceTree = "<group>"; };
+		F10000000000000000000074 /* TranslateWordExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateWordExerciseView.swift; sourceTree = "<group>"; };
+		F10000000000000000000075 /* TranslateSentenceExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateSentenceExerciseView.swift; sourceTree = "<group>"; };
+		F10000000000000000000076 /* BuildSentenceExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildSentenceExerciseView.swift; sourceTree = "<group>"; };
+		F10000000000000000000077 /* MatchPairsExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPairsExerciseView.swift; sourceTree = "<group>"; };
+		F10000000000000000000078 /* FillBlankExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillBlankExerciseView.swift; sourceTree = "<group>"; };
+		F10000000000000000000079 /* ListeningExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningExerciseView.swift; sourceTree = "<group>"; };
+		F1000000000000000000007A /* PronunciationExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronunciationExerciseView.swift; sourceTree = "<group>"; };
+		F1000000000000000000007B /* VocabularyReviewExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyReviewExerciseView.swift; sourceTree = "<group>"; };
+		F1000000000000000000007C /* TurkishTextNormalizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkishTextNormalizerTests.swift; sourceTree = "<group>"; };
+		F1000000000000000000007D /* ExercisePayloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePayloadTests.swift; sourceTree = "<group>"; };
+		F1000000000000000000007E /* ExerciseValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseValidatorTests.swift; sourceTree = "<group>"; };
+		F10000000000000000000080 /* LessonFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFlowViewModel.swift; sourceTree = "<group>"; };
+		F10000000000000000000081 /* LessonFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFlowView.swift; sourceTree = "<group>"; };
+		F10000000000000000000082 /* GrammarSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarSheet.swift; sourceTree = "<group>"; };
+		F10000000000000000000083 /* LessonLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonLauncher.swift; sourceTree = "<group>"; };
+		F10000000000000000000084 /* LessonResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonResultsView.swift; sourceTree = "<group>"; };
+		F10000000000000000000085 /* LessonProgressRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonProgressRepository.swift; sourceTree = "<group>"; };
+		F10000000000000000000090 /* LessonFlowViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFlowViewModelTests.swift; sourceTree = "<group>"; };
+		F10000000000000000000091 /* CourseMapSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseMapSnapshot.swift; sourceTree = "<group>"; };
+		F10000000000000000000092 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F10000000000000000000093 /* MascotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotView.swift; sourceTree = "<group>"; };
+		F10000000000000000000094 /* HomeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeComponents.swift; sourceTree = "<group>"; };
+		F10000000000000000000095 /* CourseMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseMapViewModel.swift; sourceTree = "<group>"; };
+		F10000000000000000000096 /* LessonNodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonNodeView.swift; sourceTree = "<group>"; };
+		F100000000000000000000A0 /* LessonNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonNavigationTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000C0 /* Hearts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hearts.swift; sourceTree = "<group>"; };
+		F100000000000000000000C1 /* HeartsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartsRepository.swift; sourceTree = "<group>"; };
+		F100000000000000000000C2 /* HeartsRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartsRepositoryTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000C3 /* AchievementCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCatalog.swift; sourceTree = "<group>"; };
+		F100000000000000000000C4 /* AchievementBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBootstrap.swift; sourceTree = "<group>"; };
+		F100000000000000000000C5 /* AchievementEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementEngine.swift; sourceTree = "<group>"; };
+		F100000000000000000000C6 /* AchievementRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementRepository.swift; sourceTree = "<group>"; };
+		F100000000000000000000C7 /* AchievementEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementEngineTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000C8 /* AchievementRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementRepositoryTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000C9 /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
+		F100000000000000000000CA /* GamificationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamificationRepository.swift; sourceTree = "<group>"; };
+		F100000000000000000000CB /* GamificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamificationService.swift; sourceTree = "<group>"; };
+		F100000000000000000000CC /* GamificationServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamificationServiceTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000CD /* AppContainerEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerEnvironment.swift; sourceTree = "<group>"; };
+		F100000000000000000000CE /* HeartsDepletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartsDepletedView.swift; sourceTree = "<group>"; };
+		F100000000000000000000CF /* LessonFlowHeartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFlowHeartsTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000D0 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		F100000000000000000000FB /* ProgressRestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRestoreService.swift; sourceTree = "<group>"; };
+		F100000000000000000000D1 /* ProfileSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSnapshot.swift; sourceTree = "<group>"; };
+		F100000000000000000000D2 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		F100000000000000000000D3 /* ProfileViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModelTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000D4 /* HeartsBugRegressionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartsBugRegressionTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000D9 /* SchemaVersioningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemaVersioningTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000DA /* StoreRecoveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreRecoveryTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000F8 /* LeaderboardDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardDecodingTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000FA /* ProgressRestoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRestoreTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000D5 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		F100000000000000000000D6 /* ShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000D7 /* PracticeModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeModeTests.swift; sourceTree = "<group>"; };
+		F100000000000000000000E1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F100000000000000000000E2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F100000000000000000000E3 /* DailyReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReminderScheduler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900000000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				600000000000000000000002 /* Miko */,
+				60000000000000000000000A /* MikoTests */,
+				60000000000000000000000B /* MikoUITests */,
+				60000000000000000000000C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		600000000000000000000002 /* Miko */ = {
+			isa = PBXGroup;
+			children = (
+				600000000000000000000003 /* App */,
+				600000000000000000000004 /* Core */,
+				600000000000000000000013 /* Domain */,
+				600000000000000000000007 /* Data */,
+				600000000000000000000019 /* Features */,
+				600000000000000000000020 /* Services */,
+				600000000000000000000009 /* Resources */,
+			);
+			path = Miko;
+			sourceTree = "<group>";
+		};
+		600000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000001 /* MikoApp.swift */,
+				F10000000000000000000002 /* AppContainer.swift */,
+				F100000000000000000000CD /* AppContainerEnvironment.swift */,
+				F10000000000000000000003 /* AppState.swift */,
+				F10000000000000000000004 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		600000000000000000000004 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				600000000000000000000005 /* Models */,
+				600000000000000000000006 /* Enums */,
+				60000000000000000000000D /* Extensions */,
+				60000000000000000000000E /* DesignSystem */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		600000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000005 /* Language.swift */,
+				F10000000000000000000006 /* Course.swift */,
+				F10000000000000000000007 /* Level.swift */,
+				F10000000000000000000008 /* Unit.swift */,
+				F10000000000000000000009 /* Lesson.swift */,
+				F1000000000000000000000A /* Exercise.swift */,
+				F1000000000000000000000B /* VocabularyItem.swift */,
+				F1000000000000000000000C /* GrammarTopic.swift */,
+				F1000000000000000000000D /* UserProfile.swift */,
+				F1000000000000000000000E /* UserProgress.swift */,
+				F1000000000000000000000F /* LessonProgress.swift */,
+				F10000000000000000000010 /* ExerciseProgress.swift */,
+				F10000000000000000000011 /* Achievement.swift */,
+				F10000000000000000000012 /* UserAchievement.swift */,
+				F10000000000000000000013 /* DailyGoal.swift */,
+				F10000000000000000000014 /* Streak.swift */,
+				F10000000000000000000015 /* UserSettings.swift */,
+				F100000000000000000000C0 /* Hearts.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		600000000000000000000006 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000016 /* ExerciseType.swift */,
+				F10000000000000000000017 /* CEFRLevel.swift */,
+				F10000000000000000000018 /* LessonKind.swift */,
+				F10000000000000000000019 /* PartOfSpeech.swift */,
+				F1000000000000000000001A /* LessonProgressStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		600000000000000000000007 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				600000000000000000000008 /* Database */,
+				600000000000000000000015 /* Content */,
+				600000000000000000000017 /* Repositories */,
+				600000000000000000000018 /* SeedData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		600000000000000000000008 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000001B /* ModelContainerFactory.swift */,
+				F1000000000000000000001C /* MigrationPlan.swift */,
+				F100000000000000000000D8 /* SchemaV1.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		600000000000000000000009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000001D /* Assets.xcassets */,
+				F100000000000000000000E1 /* LaunchScreen.storyboard */,
+				F1000000000000000000001E /* Localizable.xcstrings */,
+				600000000000000000000012 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60000000000000000000000A /* MikoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000001F /* MikoTests.swift */,
+				F100000000000000000000F7 /* AuthValidationTests.swift */,
+				F10000000000000000000090 /* LessonFlowViewModelTests.swift */,
+				F100000000000000000000A0 /* LessonNavigationTests.swift */,
+				F10000000000000000000037 /* LocalizationTests.swift */,
+				F10000000000000000000038 /* FontRegistrationTests.swift */,
+				F10000000000000000000059 /* ContentTestSupport.swift */,
+				F1000000000000000000005A /* ContentDecodingTests.swift */,
+				F1000000000000000000005B /* ContentValidatorTests.swift */,
+				F1000000000000000000005C /* ContentImporterTests.swift */,
+				F1000000000000000000005D /* ContentIntegrityTests.swift */,
+				F1000000000000000000007C /* TurkishTextNormalizerTests.swift */,
+				F1000000000000000000007D /* ExercisePayloadTests.swift */,
+				F1000000000000000000007E /* ExerciseValidatorTests.swift */,
+				F100000000000000000000C2 /* HeartsRepositoryTests.swift */,
+				F100000000000000000000C7 /* AchievementEngineTests.swift */,
+				F100000000000000000000C8 /* AchievementRepositoryTests.swift */,
+				F100000000000000000000CC /* GamificationServiceTests.swift */,
+				F100000000000000000000CF /* LessonFlowHeartsTests.swift */,
+				F100000000000000000000D3 /* ProfileViewModelTests.swift */,
+				F100000000000000000000D4 /* HeartsBugRegressionTests.swift */,
+				F100000000000000000000D6 /* ShopTests.swift */,
+				F100000000000000000000D7 /* PracticeModeTests.swift */,
+				F100000000000000000000D9 /* SchemaVersioningTests.swift */,
+				F100000000000000000000DA /* StoreRecoveryTests.swift */,
+				F100000000000000000000F8 /* LeaderboardDecodingTests.swift */,
+				F100000000000000000000FA /* ProgressRestoreTests.swift */,
+			);
+			path = MikoTests;
+			sourceTree = "<group>";
+		};
+		60000000000000000000000B /* MikoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000020 /* MikoUITests.swift */,
+			);
+			path = MikoUITests;
+			sourceTree = "<group>";
+		};
+		60000000000000000000000C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000021 /* Miko.app */,
+				F10000000000000000000022 /* MikoTests.xctest */,
+				F10000000000000000000023 /* MikoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60000000000000000000000D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000024 /* Color+Hex.swift */,
+				F10000000000000000000025 /* Font+Lexend.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		60000000000000000000000E /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000026 /* FontRegistrar.swift */,
+				60000000000000000000000F /* Theme */,
+				600000000000000000000010 /* Components */,
+				600000000000000000000011 /* Preview */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		60000000000000000000000F /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000027 /* TDColor.swift */,
+				F10000000000000000000028 /* TDTypography.swift */,
+				F10000000000000000000029 /* TDSpacing.swift */,
+				F1000000000000000000002A /* TDCornerRadius.swift */,
+				F1000000000000000000002B /* TDShadow.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		600000000000000000000010 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000002C /* TDButton.swift */,
+				F1000000000000000000002D /* TDCard.swift */,
+				F1000000000000000000002E /* TDProgressBar.swift */,
+				F1000000000000000000002F /* TDStatView.swift */,
+				F10000000000000000000030 /* TDXPView.swift */,
+				F10000000000000000000031 /* TDHeartView.swift */,
+				F10000000000000000000032 /* TDStreakView.swift */,
+				F10000000000000000000033 /* TDAchievementBadge.swift */,
+				F10000000000000000000034 /* TDTabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		600000000000000000000011 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000035 /* DesignSystemPreview.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		600000000000000000000012 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000036 /* Lexend.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		600000000000000000000013 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				600000000000000000000014 /* ValueTypes */,
+				60000000000000000000001F /* Protocols */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		600000000000000000000014 /* ValueTypes */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000039 /* ExercisePayloads.swift */,
+				F1000000000000000000006B /* ExerciseAnswer.swift */,
+				F1000000000000000000006C /* TurkishTextNormalizer.swift */,
+				F1000000000000000000006D /* ExerciseValidator.swift */,
+				F10000000000000000000091 /* CourseMapSnapshot.swift */,
+				F100000000000000000000C3 /* AchievementCatalog.swift */,
+				F100000000000000000000C5 /* AchievementEngine.swift */,
+				F100000000000000000000C9 /* CalendarDay.swift */,
+				F100000000000000000000D1 /* ProfileSnapshot.swift */,
+			);
+			path = ValueTypes;
+			sourceTree = "<group>";
+		};
+		600000000000000000000015 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000003A /* ContentError.swift */,
+				F1000000000000000000003B /* KeyedContent.swift */,
+				F1000000000000000000003C /* BundleContentSource.swift */,
+				F1000000000000000000003D /* ContentValidator.swift */,
+				F1000000000000000000003E /* ContentImporter.swift */,
+				F1000000000000000000003F /* ContentBootstrap.swift */,
+				F10000000000000000000062 /* UserBootstrap.swift */,
+				F100000000000000000000C4 /* AchievementBootstrap.swift */,
+				600000000000000000000016 /* DTOs */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		600000000000000000000016 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000041 /* JSONValue.swift */,
+				F10000000000000000000042 /* CourseContentDTO.swift */,
+				F10000000000000000000043 /* LevelContentDTO.swift */,
+				F10000000000000000000044 /* UnitContentDTO.swift */,
+				F10000000000000000000045 /* LessonContentDTO.swift */,
+				F10000000000000000000046 /* ExerciseContentDTO.swift */,
+				F10000000000000000000047 /* VocabularyContentDTO.swift */,
+				F10000000000000000000048 /* GrammarContentDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		600000000000000000000017 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000040 /* CourseRepository.swift */,
+				F10000000000000000000085 /* LessonProgressRepository.swift */,
+				F100000000000000000000C1 /* HeartsRepository.swift */,
+				F100000000000000000000C6 /* AchievementRepository.swift */,
+				F100000000000000000000CA /* GamificationRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		600000000000000000000018 /* SeedData */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000049 /* course.json */,
+				F1000000000000000000004A /* level-a1.json */,
+				F1000000000000000000004B /* unit-a1-u1.json */,
+				F1000000000000000000004C /* unit-a1-u2.json */,
+				F1000000000000000000004D /* unit-a1-u3.json */,
+				F1000000000000000000004E /* unit-a1-u4.json */,
+				F100000000000000000000E4 /* unit-a1-u5.json */,
+				F100000000000000000000E5 /* unit-a1-u6.json */,
+				F100000000000000000000E6 /* unit-a1-u7.json */,
+				F1000000000000000000004F /* lesson-a1-u1-l1.json */,
+				F10000000000000000000050 /* lesson-a1-u1-l2.json */,
+				F10000000000000000000051 /* lesson-a1-u2-l1.json */,
+				F10000000000000000000052 /* lesson-a1-u2-l2.json */,
+				F10000000000000000000053 /* lesson-a1-u3-l1.json */,
+				F10000000000000000000054 /* lesson-a1-u3-l2.json */,
+				F10000000000000000000055 /* lesson-a1-u4-l1.json */,
+				F10000000000000000000056 /* lesson-a1-u4-l2.json */,
+				F100000000000000000000E7 /* lesson-a1-u5-l1.json */,
+				F100000000000000000000E8 /* lesson-a1-u5-l2.json */,
+				F100000000000000000000E9 /* lesson-a1-u6-l1.json */,
+				F100000000000000000000EA /* lesson-a1-u6-l2.json */,
+				F100000000000000000000EB /* lesson-a1-u7-l1.json */,
+				F100000000000000000000EC /* lesson-a1-u7-l2.json */,
+				F100000000000000000000110 /* lesson-a2-u7-l2.json */,
+				F10000000000000000000010F /* lesson-a2-u7-l1.json */,
+				F10000000000000000000010E /* lesson-a2-u6-l2.json */,
+				F10000000000000000000010D /* lesson-a2-u6-l1.json */,
+				F10000000000000000000010C /* lesson-a2-u5-l2.json */,
+				F10000000000000000000010B /* lesson-a2-u5-l1.json */,
+				F10000000000000000000010A /* lesson-a2-u4-l2.json */,
+				F100000000000000000000109 /* lesson-a2-u4-l1.json */,
+				F100000000000000000000108 /* lesson-a2-u3-l2.json */,
+				F100000000000000000000107 /* lesson-a2-u3-l1.json */,
+				F100000000000000000000106 /* lesson-a2-u2-l2.json */,
+				F100000000000000000000105 /* lesson-a2-u2-l1.json */,
+				F100000000000000000000104 /* lesson-a2-u1-l2.json */,
+				F100000000000000000000103 /* lesson-a2-u1-l1.json */,
+				F100000000000000000000102 /* unit-a2-u7.json */,
+				F100000000000000000000101 /* unit-a2-u6.json */,
+				F100000000000000000000100 /* unit-a2-u5.json */,
+				F100000000000000000000FF /* unit-a2-u4.json */,
+				F100000000000000000000FE /* unit-a2-u3.json */,
+				F100000000000000000000FD /* unit-a2-u2.json */,
+				F100000000000000000000FC /* unit-a2-u1.json */,
+				F100000000000000000000F9 /* level-a2.json */,
+				F10000000000000000000057 /* vocabulary.json */,
+				F10000000000000000000058 /* grammar.json */,
+			);
+			path = SeedData;
+			sourceTree = "<group>";
+		};
+		600000000000000000000019 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000063 /* AppTab.swift */,
+				F10000000000000000000064 /* MainTabView.swift */,
+				F10000000000000000000065 /* PlaceholderScreen.swift */,
+				6000000000000000000000F1 /* Auth */,
+				6000000000000000000000E2 /* Onboarding */,
+				60000000000000000000001A /* Home */,
+				60000000000000000000001B /* CourseMap */,
+				60000000000000000000001C /* Ranking */,
+				60000000000000000000001D /* Shop */,
+				60000000000000000000001E /* Profile */,
+				600000000000000000000021 /* Lesson */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		6000000000000000000000E2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F100000000000000000000E2 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		60000000000000000000001A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000066 /* HomeView.swift */,
+				F10000000000000000000092 /* HomeViewModel.swift */,
+				F10000000000000000000093 /* MascotView.swift */,
+				F10000000000000000000094 /* HomeComponents.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		60000000000000000000001B /* CourseMap */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000067 /* CourseMapView.swift */,
+				F10000000000000000000095 /* CourseMapViewModel.swift */,
+				F10000000000000000000096 /* LessonNodeView.swift */,
+			);
+			path = CourseMap;
+			sourceTree = "<group>";
+		};
+		60000000000000000000001C /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000068 /* RankingView.swift */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		60000000000000000000001D /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000069 /* ShopView.swift */,
+				F100000000000000000000D5 /* ShopViewModel.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		60000000000000000000001E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000006A /* ProfileView.swift */,
+				F100000000000000000000D2 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		60000000000000000000001F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000006E /* ExerciseServices.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		600000000000000000000020 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6000000000000000000000F0 /* Auth */,
+				F1000000000000000000006F /* AVAudioProvider.swift */,
+				F100000000000000000000E0 /* AppleSpeechProvider.swift */,
+				F100000000000000000000E3 /* DailyReminderScheduler.swift */,
+				F10000000000000000000070 /* MockSpeechProvider.swift */,
+				F100000000000000000000CB /* GamificationService.swift */,
+				F100000000000000000000D0 /* Haptics.swift */,
+				F100000000000000000000FB /* ProgressRestoreService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6000000000000000000000F0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F100000000000000000000F0 /* AuthModels.swift */,
+				F100000000000000000000F1 /* SupabaseConfiguration.swift */,
+				F100000000000000000000F2 /* KeychainSessionStore.swift */,
+				F100000000000000000000F3 /* SupabaseAuthClient.swift */,
+				F100000000000000000000F4 /* AuthStore.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		6000000000000000000000F1 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F100000000000000000000F5 /* AuthView.swift */,
+				F100000000000000000000F6 /* AccountCardView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		600000000000000000000021 /* Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				600000000000000000000022 /* Exercises */,
+				600000000000000000000023 /* LessonFlow */,
+				600000000000000000000024 /* Results */,
+				F10000000000000000000080 /* LessonFlowViewModel.swift */,
+				F10000000000000000000081 /* LessonFlowView.swift */,
+				F10000000000000000000082 /* GrammarSheet.swift */,
+				F10000000000000000000083 /* LessonLauncher.swift */,
+			);
+			path = Lesson;
+			sourceTree = "<group>";
+		};
+		600000000000000000000022 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000071 /* ExerciseFactory.swift */,
+				F10000000000000000000072 /* ExerciseComponents.swift */,
+				600000000000000000000025 /* MultipleChoice */,
+				600000000000000000000026 /* TranslateWord */,
+				600000000000000000000027 /* TranslateSentence */,
+				600000000000000000000028 /* BuildSentence */,
+				600000000000000000000029 /* MatchPairs */,
+				60000000000000000000002A /* FillBlank */,
+				60000000000000000000002B /* Listening */,
+				60000000000000000000002C /* Pronunciation */,
+				60000000000000000000002D /* VocabularyReview */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		600000000000000000000023 /* LessonFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LessonFlow;
+			sourceTree = "<group>";
+		};
+		600000000000000000000024 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000084 /* LessonResultsView.swift */,
+				F100000000000000000000CE /* HeartsDepletedView.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		600000000000000000000025 /* MultipleChoice */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000073 /* MultipleChoiceExerciseView.swift */,
+			);
+			path = MultipleChoice;
+			sourceTree = "<group>";
+		};
+		600000000000000000000026 /* TranslateWord */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000074 /* TranslateWordExerciseView.swift */,
+			);
+			path = TranslateWord;
+			sourceTree = "<group>";
+		};
+		600000000000000000000027 /* TranslateSentence */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000075 /* TranslateSentenceExerciseView.swift */,
+			);
+			path = TranslateSentence;
+			sourceTree = "<group>";
+		};
+		600000000000000000000028 /* BuildSentence */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000076 /* BuildSentenceExerciseView.swift */,
+			);
+			path = BuildSentence;
+			sourceTree = "<group>";
+		};
+		600000000000000000000029 /* MatchPairs */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000077 /* MatchPairsExerciseView.swift */,
+			);
+			path = MatchPairs;
+			sourceTree = "<group>";
+		};
+		60000000000000000000002A /* FillBlank */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000078 /* FillBlankExerciseView.swift */,
+			);
+			path = FillBlank;
+			sourceTree = "<group>";
+		};
+		60000000000000000000002B /* Listening */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000079 /* ListeningExerciseView.swift */,
+			);
+			path = Listening;
+			sourceTree = "<group>";
+		};
+		60000000000000000000002C /* Pronunciation */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000007A /* PronunciationExerciseView.swift */,
+			);
+			path = Pronunciation;
+			sourceTree = "<group>";
+		};
+		60000000000000000000002D /* VocabularyReview */ = {
+			isa = PBXGroup;
+			children = (
+				F1000000000000000000007B /* VocabularyReviewExerciseView.swift */,
+			);
+			path = VocabularyReview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		700000000000000000000001 /* Miko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00000000000000000000002 /* Build configuration list for PBXNativeTarget "Miko" */;
+			buildPhases = (
+				900000000000000000000001 /* Sources */,
+				900000000000000000000002 /* Frameworks */,
+				900000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Miko;
+			packageProductDependencies = (
+			);
+			productName = Miko;
+			productReference = F10000000000000000000021 /* Miko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		700000000000000000000002 /* MikoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00000000000000000000003 /* Build configuration list for PBXNativeTarget "MikoTests" */;
+			buildPhases = (
+				900000000000000000000004 /* Sources */,
+				900000000000000000000005 /* Frameworks */,
+				900000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = MikoTests;
+			packageProductDependencies = (
+			);
+			productName = MikoTests;
+			productReference = F10000000000000000000022 /* MikoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		700000000000000000000003 /* MikoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00000000000000000000004 /* Build configuration list for PBXNativeTarget "MikoUITests" */;
+			buildPhases = (
+				900000000000000000000007 /* Sources */,
+				900000000000000000000008 /* Frameworks */,
+				900000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = MikoUITests;
+			packageProductDependencies = (
+			);
+			productName = MikoUITests;
+			productReference = F10000000000000000000023 /* MikoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					700000000000000000000001 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					700000000000000000000002 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 700000000000000000000001;
+					};
+					700000000000000000000003 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 700000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = C00000000000000000000001 /* Build configuration list for PBXProject "Miko" */;
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				Base,
+			);
+			mainGroup = 600000000000000000000001;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 60000000000000000000000C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				700000000000000000000001 /* Miko */,
+				700000000000000000000002 /* MikoTests */,
+				700000000000000000000003 /* MikoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2000000000000000000001D /* Assets.xcassets in Resources */,
+				B200000000000000000000E1 /* LaunchScreen.storyboard in Resources */,
+				B2000000000000000000001E /* Localizable.xcstrings in Resources */,
+				B20000000000000000000036 /* Lexend.ttf in Resources */,
+				B20000000000000000000049 /* course.json in Resources */,
+				B2000000000000000000004A /* level-a1.json in Resources */,
+				B2000000000000000000004B /* unit-a1-u1.json in Resources */,
+				B2000000000000000000004C /* unit-a1-u2.json in Resources */,
+				B2000000000000000000004D /* unit-a1-u3.json in Resources */,
+				B2000000000000000000004E /* unit-a1-u4.json in Resources */,
+				B200000000000000000000E4 /* unit-a1-u5.json in Resources */,
+				B200000000000000000000E5 /* unit-a1-u6.json in Resources */,
+				B200000000000000000000E6 /* unit-a1-u7.json in Resources */,
+				B2000000000000000000004F /* lesson-a1-u1-l1.json in Resources */,
+				B20000000000000000000050 /* lesson-a1-u1-l2.json in Resources */,
+				B20000000000000000000051 /* lesson-a1-u2-l1.json in Resources */,
+				B20000000000000000000052 /* lesson-a1-u2-l2.json in Resources */,
+				B20000000000000000000053 /* lesson-a1-u3-l1.json in Resources */,
+				B20000000000000000000054 /* lesson-a1-u3-l2.json in Resources */,
+				B20000000000000000000055 /* lesson-a1-u4-l1.json in Resources */,
+				B20000000000000000000056 /* lesson-a1-u4-l2.json in Resources */,
+				B200000000000000000000E7 /* lesson-a1-u5-l1.json in Resources */,
+				B200000000000000000000E8 /* lesson-a1-u5-l2.json in Resources */,
+				B200000000000000000000E9 /* lesson-a1-u6-l1.json in Resources */,
+				B200000000000000000000EA /* lesson-a1-u6-l2.json in Resources */,
+				B200000000000000000000EB /* lesson-a1-u7-l1.json in Resources */,
+				B200000000000000000000EC /* lesson-a1-u7-l2.json in Resources */,
+				B20000000000000000000010D /* lesson-a2-u7-l2.json in Resources */,
+				B20000000000000000000010C /* lesson-a2-u7-l1.json in Resources */,
+				B20000000000000000000010B /* lesson-a2-u6-l2.json in Resources */,
+				B20000000000000000000010A /* lesson-a2-u6-l1.json in Resources */,
+				B200000000000000000000109 /* lesson-a2-u5-l2.json in Resources */,
+				B200000000000000000000108 /* lesson-a2-u5-l1.json in Resources */,
+				B200000000000000000000107 /* lesson-a2-u4-l2.json in Resources */,
+				B200000000000000000000106 /* lesson-a2-u4-l1.json in Resources */,
+				B200000000000000000000105 /* lesson-a2-u3-l2.json in Resources */,
+				B200000000000000000000104 /* lesson-a2-u3-l1.json in Resources */,
+				B200000000000000000000103 /* lesson-a2-u2-l2.json in Resources */,
+				B200000000000000000000102 /* lesson-a2-u2-l1.json in Resources */,
+				B200000000000000000000101 /* lesson-a2-u1-l2.json in Resources */,
+				B200000000000000000000100 /* lesson-a2-u1-l1.json in Resources */,
+				B200000000000000000000FF /* unit-a2-u7.json in Resources */,
+				B200000000000000000000FE /* unit-a2-u6.json in Resources */,
+				B200000000000000000000FD /* unit-a2-u5.json in Resources */,
+				B200000000000000000000FC /* unit-a2-u4.json in Resources */,
+				B200000000000000000000FB /* unit-a2-u3.json in Resources */,
+				B200000000000000000000FA /* unit-a2-u2.json in Resources */,
+				B200000000000000000000F9 /* unit-a2-u1.json in Resources */,
+				B200000000000000000000F8 /* level-a2.json in Resources */,
+				B20000000000000000000057 /* vocabulary.json in Resources */,
+				B20000000000000000000058 /* grammar.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20000000000000000000001 /* MikoApp.swift in Sources */,
+				B200000000000000000000F0 /* AuthModels.swift in Sources */,
+				B200000000000000000000F1 /* SupabaseConfiguration.swift in Sources */,
+				B200000000000000000000F2 /* KeychainSessionStore.swift in Sources */,
+				B200000000000000000000F3 /* SupabaseAuthClient.swift in Sources */,
+				B200000000000000000000F4 /* AuthStore.swift in Sources */,
+				B200000000000000000000F5 /* AuthView.swift in Sources */,
+				B200000000000000000000F6 /* AccountCardView.swift in Sources */,
+				B20000000000000000000002 /* AppContainer.swift in Sources */,
+				B20000000000000000000003 /* AppState.swift in Sources */,
+				B20000000000000000000004 /* RootView.swift in Sources */,
+				B200000000000000000000E2 /* OnboardingView.swift in Sources */,
+				B200000000000000000000E3 /* DailyReminderScheduler.swift in Sources */,
+				B20000000000000000000005 /* Language.swift in Sources */,
+				B20000000000000000000006 /* Course.swift in Sources */,
+				B20000000000000000000007 /* Level.swift in Sources */,
+				B20000000000000000000008 /* Unit.swift in Sources */,
+				B20000000000000000000009 /* Lesson.swift in Sources */,
+				B2000000000000000000000A /* Exercise.swift in Sources */,
+				B2000000000000000000000B /* VocabularyItem.swift in Sources */,
+				B2000000000000000000000C /* GrammarTopic.swift in Sources */,
+				B2000000000000000000000D /* UserProfile.swift in Sources */,
+				B2000000000000000000000E /* UserProgress.swift in Sources */,
+				B2000000000000000000000F /* LessonProgress.swift in Sources */,
+				B20000000000000000000010 /* ExerciseProgress.swift in Sources */,
+				B20000000000000000000011 /* Achievement.swift in Sources */,
+				B20000000000000000000012 /* UserAchievement.swift in Sources */,
+				B20000000000000000000013 /* DailyGoal.swift in Sources */,
+				B20000000000000000000014 /* Streak.swift in Sources */,
+				B20000000000000000000015 /* UserSettings.swift in Sources */,
+				B20000000000000000000016 /* ExerciseType.swift in Sources */,
+				B20000000000000000000017 /* CEFRLevel.swift in Sources */,
+				B20000000000000000000018 /* LessonKind.swift in Sources */,
+				B20000000000000000000019 /* PartOfSpeech.swift in Sources */,
+				B2000000000000000000001A /* LessonProgressStatus.swift in Sources */,
+				B2000000000000000000001B /* ModelContainerFactory.swift in Sources */,
+				B2000000000000000000001C /* MigrationPlan.swift in Sources */,
+				B200000000000000000000D8 /* SchemaV1.swift in Sources */,
+				B20000000000000000000024 /* Color+Hex.swift in Sources */,
+				B20000000000000000000025 /* Font+Lexend.swift in Sources */,
+				B20000000000000000000026 /* FontRegistrar.swift in Sources */,
+				B20000000000000000000027 /* TDColor.swift in Sources */,
+				B20000000000000000000028 /* TDTypography.swift in Sources */,
+				B20000000000000000000029 /* TDSpacing.swift in Sources */,
+				B2000000000000000000002A /* TDCornerRadius.swift in Sources */,
+				B2000000000000000000002B /* TDShadow.swift in Sources */,
+				B2000000000000000000002C /* TDButton.swift in Sources */,
+				B2000000000000000000002D /* TDCard.swift in Sources */,
+				B2000000000000000000002E /* TDProgressBar.swift in Sources */,
+				B2000000000000000000002F /* TDStatView.swift in Sources */,
+				B20000000000000000000030 /* TDXPView.swift in Sources */,
+				B20000000000000000000031 /* TDHeartView.swift in Sources */,
+				B20000000000000000000032 /* TDStreakView.swift in Sources */,
+				B20000000000000000000033 /* TDAchievementBadge.swift in Sources */,
+				B20000000000000000000034 /* TDTabBar.swift in Sources */,
+				B20000000000000000000035 /* DesignSystemPreview.swift in Sources */,
+				B20000000000000000000039 /* ExercisePayloads.swift in Sources */,
+				B2000000000000000000003A /* ContentError.swift in Sources */,
+				B2000000000000000000003B /* KeyedContent.swift in Sources */,
+				B2000000000000000000003C /* BundleContentSource.swift in Sources */,
+				B2000000000000000000003D /* ContentValidator.swift in Sources */,
+				B2000000000000000000003E /* ContentImporter.swift in Sources */,
+				B2000000000000000000003F /* ContentBootstrap.swift in Sources */,
+				B20000000000000000000040 /* CourseRepository.swift in Sources */,
+				B20000000000000000000041 /* JSONValue.swift in Sources */,
+				B20000000000000000000042 /* CourseContentDTO.swift in Sources */,
+				B20000000000000000000043 /* LevelContentDTO.swift in Sources */,
+				B20000000000000000000044 /* UnitContentDTO.swift in Sources */,
+				B20000000000000000000045 /* LessonContentDTO.swift in Sources */,
+				B20000000000000000000046 /* ExerciseContentDTO.swift in Sources */,
+				B20000000000000000000047 /* VocabularyContentDTO.swift in Sources */,
+				B20000000000000000000048 /* GrammarContentDTO.swift in Sources */,
+				B20000000000000000000062 /* UserBootstrap.swift in Sources */,
+				B20000000000000000000063 /* AppTab.swift in Sources */,
+				B20000000000000000000064 /* MainTabView.swift in Sources */,
+				B20000000000000000000065 /* PlaceholderScreen.swift in Sources */,
+				B20000000000000000000066 /* HomeView.swift in Sources */,
+				B20000000000000000000067 /* CourseMapView.swift in Sources */,
+				B20000000000000000000068 /* RankingView.swift in Sources */,
+				B20000000000000000000069 /* ShopView.swift in Sources */,
+				B200000000000000000000D5 /* ShopViewModel.swift in Sources */,
+				B2000000000000000000006A /* ProfileView.swift in Sources */,
+				B2000000000000000000006B /* ExerciseAnswer.swift in Sources */,
+				B2000000000000000000006C /* TurkishTextNormalizer.swift in Sources */,
+				B2000000000000000000006D /* ExerciseValidator.swift in Sources */,
+				B2000000000000000000006E /* ExerciseServices.swift in Sources */,
+				B2000000000000000000006F /* AVAudioProvider.swift in Sources */,
+				B200000000000000000000E0 /* AppleSpeechProvider.swift in Sources */,
+				B20000000000000000000070 /* MockSpeechProvider.swift in Sources */,
+				B20000000000000000000071 /* ExerciseFactory.swift in Sources */,
+				B20000000000000000000080 /* LessonFlowViewModel.swift in Sources */,
+				B20000000000000000000081 /* LessonFlowView.swift in Sources */,
+				B20000000000000000000082 /* GrammarSheet.swift in Sources */,
+				B20000000000000000000083 /* LessonLauncher.swift in Sources */,
+				B20000000000000000000084 /* LessonResultsView.swift in Sources */,
+				B20000000000000000000085 /* LessonProgressRepository.swift in Sources */,
+				B20000000000000000000091 /* CourseMapSnapshot.swift in Sources */,
+				B20000000000000000000092 /* HomeViewModel.swift in Sources */,
+				B20000000000000000000093 /* MascotView.swift in Sources */,
+				B20000000000000000000094 /* HomeComponents.swift in Sources */,
+				B20000000000000000000095 /* CourseMapViewModel.swift in Sources */,
+				B20000000000000000000096 /* LessonNodeView.swift in Sources */,
+				B20000000000000000000072 /* ExerciseComponents.swift in Sources */,
+				B20000000000000000000073 /* MultipleChoiceExerciseView.swift in Sources */,
+				B20000000000000000000074 /* TranslateWordExerciseView.swift in Sources */,
+				B20000000000000000000075 /* TranslateSentenceExerciseView.swift in Sources */,
+				B20000000000000000000076 /* BuildSentenceExerciseView.swift in Sources */,
+				B20000000000000000000077 /* MatchPairsExerciseView.swift in Sources */,
+				B20000000000000000000078 /* FillBlankExerciseView.swift in Sources */,
+				B20000000000000000000079 /* ListeningExerciseView.swift in Sources */,
+				B2000000000000000000007A /* PronunciationExerciseView.swift in Sources */,
+				B2000000000000000000007B /* VocabularyReviewExerciseView.swift in Sources */,
+				B200000000000000000000C0 /* Hearts.swift in Sources */,
+				B200000000000000000000C1 /* HeartsRepository.swift in Sources */,
+				B200000000000000000000C3 /* AchievementCatalog.swift in Sources */,
+				B200000000000000000000C4 /* AchievementBootstrap.swift in Sources */,
+				B200000000000000000000C5 /* AchievementEngine.swift in Sources */,
+				B200000000000000000000C6 /* AchievementRepository.swift in Sources */,
+				B200000000000000000000C9 /* CalendarDay.swift in Sources */,
+				B200000000000000000000CA /* GamificationRepository.swift in Sources */,
+				B200000000000000000000CB /* GamificationService.swift in Sources */,
+				B200000000000000000000CD /* AppContainerEnvironment.swift in Sources */,
+				B200000000000000000000CE /* HeartsDepletedView.swift in Sources */,
+				B200000000000000000000D0 /* Haptics.swift in Sources */,
+				B200000000000000000000DE /* ProgressRestoreService.swift in Sources */,
+				B200000000000000000000D1 /* ProfileSnapshot.swift in Sources */,
+				B200000000000000000000D2 /* ProfileViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900000000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2000000000000000000001F /* MikoTests.swift in Sources */,
+				B200000000000000000000F7 /* AuthValidationTests.swift in Sources */,
+				B20000000000000000000037 /* LocalizationTests.swift in Sources */,
+				B20000000000000000000038 /* FontRegistrationTests.swift in Sources */,
+				B20000000000000000000059 /* ContentTestSupport.swift in Sources */,
+				B2000000000000000000005A /* ContentDecodingTests.swift in Sources */,
+				B2000000000000000000005B /* ContentValidatorTests.swift in Sources */,
+				B2000000000000000000005C /* ContentImporterTests.swift in Sources */,
+				B2000000000000000000005D /* ContentIntegrityTests.swift in Sources */,
+				B2000000000000000000007C /* TurkishTextNormalizerTests.swift in Sources */,
+				B2000000000000000000007D /* ExercisePayloadTests.swift in Sources */,
+				B2000000000000000000007E /* ExerciseValidatorTests.swift in Sources */,
+				B20000000000000000000090 /* LessonFlowViewModelTests.swift in Sources */,
+				B200000000000000000000A0 /* LessonNavigationTests.swift in Sources */,
+				B200000000000000000000C2 /* HeartsRepositoryTests.swift in Sources */,
+				B200000000000000000000C7 /* AchievementEngineTests.swift in Sources */,
+				B200000000000000000000C8 /* AchievementRepositoryTests.swift in Sources */,
+				B200000000000000000000CC /* GamificationServiceTests.swift in Sources */,
+				B200000000000000000000CF /* LessonFlowHeartsTests.swift in Sources */,
+				B200000000000000000000D3 /* ProfileViewModelTests.swift in Sources */,
+				B200000000000000000000D4 /* HeartsBugRegressionTests.swift in Sources */,
+				B200000000000000000000D6 /* ShopTests.swift in Sources */,
+				B200000000000000000000D7 /* PracticeModeTests.swift in Sources */,
+				B200000000000000000000D9 /* SchemaVersioningTests.swift in Sources */,
+				B200000000000000000000DA /* StoreRecoveryTests.swift in Sources */,
+				B200000000000000000000DB /* LeaderboardDecodingTests.swift in Sources */,
+				B200000000000000000000DD /* ProgressRestoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20000000000000000000020 /* MikoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700000000000000000000001 /* Miko */;
+			targetProxy = D00000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		E00000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700000000000000000000001 /* Miko */;
+			targetProxy = D00000000000000000000002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Miko-Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Miko;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Микрофон нужен для проверки произношения турецких слов и фраз.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Распознавание речи нужно для проверки произношения турецких слов и фраз.";
+				INFOPLIST_KEY_SUPABASE_PUBLISHABLE_KEY = "$(SUPABASE_PUBLISHABLE_KEY)";
+				INFOPLIST_KEY_SUPABASE_URL = "$(SUPABASE_URL)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkishdoulingo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				SUPABASE_PUBLISHABLE_KEY = "";
+				SUPABASE_URL = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Miko-Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Miko;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Микрофон нужен для проверки произношения турецких слов и фраз.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Распознавание речи нужно для проверки произношения турецких слов и фраз.";
+				INFOPLIST_KEY_SUPABASE_PUBLISHABLE_KEY = "$(SUPABASE_PUBLISHABLE_KEY)";
+				INFOPLIST_KEY_SUPABASE_URL = "$(SUPABASE_URL)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkishdoulingo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				SUPABASE_PUBLISHABLE_KEY = "";
+				SUPABASE_URL = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkishdoulingo.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miko.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Miko";
+			};
+			name = Debug;
+		};
+		A00000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkishdoulingo.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miko.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Miko";
+			};
+			name = Release;
+		};
+		A00000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkishdoulingo.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Miko;
+			};
+			name = Debug;
+		};
+		A00000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkishdoulingo.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Miko;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00000000000000000000001 /* Build configuration list for PBXProject "Miko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000001 /* Debug */,
+				A00000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00000000000000000000002 /* Build configuration list for PBXNativeTarget "Miko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000003 /* Debug */,
+				A00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00000000000000000000003 /* Build configuration list for PBXNativeTarget "MikoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000005 /* Debug */,
+				A00000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00000000000000000000004 /* Build configuration list for PBXNativeTarget "MikoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000007 /* Debug */,
+				A00000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 800000000000000000000001 /* Project object */;
+}

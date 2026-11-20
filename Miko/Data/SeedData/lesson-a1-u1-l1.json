@@ -1,0 +1,200 @@
+{
+  "key": "a1.u1.l1",
+  "orderIndex": 0,
+  "titleKey": "lesson.a1.u1.l1.title",
+  "kind": "skill",
+  "unitKey": "a1.u1",
+  "vocabularyKeys": [
+    "vocab.merhaba",
+    "vocab.selam",
+    "vocab.gunaydin",
+    "vocab.iyi-aksamlar",
+    "vocab.hoscakal",
+    "vocab.gule-gule"
+  ],
+  "grammarKeys": [],
+  "exercises": [
+    {
+      "key": "a1.u1.l1.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Merhaba»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Привет",
+      "acceptedAnswers": [
+        "Привет"
+      ],
+      "vocabularyKeys": [
+        "vocab.merhaba"
+      ],
+      "payload": {
+        "options": [
+          "Привет",
+          "Спасибо",
+          "Пока",
+          "Как дела"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u1.l1.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: Привет",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Merhaba",
+      "acceptedAnswers": [
+        "merhaba",
+        "Merhaba"
+      ],
+      "vocabularyKeys": [
+        "vocab.merhaba"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u1.l1.e3",
+      "type": "listeningComprehension",
+      "orderIndex": 2,
+      "promptText": "Прослушайте и выберите правильный перевод:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Доброе утро!",
+      "acceptedAnswers": [
+        "Доброе утро!",
+        "Доброе утро"
+      ],
+      "vocabularyKeys": [
+        "vocab.gunaydin"
+      ],
+      "payload": {
+        "audioFileName": "gunaydin.mp3",
+        "transcript": "Günaydın!",
+        "options": [
+          "Доброе утро!",
+          "Добрый вечер!",
+          "Привет!",
+          "Спокойной ночи!"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u1.l1.e4",
+      "type": "pronunciation",
+      "orderIndex": 3,
+      "promptText": "Произнесите слово: Merhaba",
+      "promptKey": "",
+      "hintKey": "mer-ha-ba",
+      "correctAnswerText": "Merhaba",
+      "acceptedAnswers": [
+        "merhaba",
+        "Merhaba"
+      ],
+      "vocabularyKeys": [
+        "vocab.merhaba"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u1.l1.e5",
+      "type": "multipleChoice",
+      "orderIndex": 4,
+      "promptText": "Что значит «Günaydın»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Доброе утро",
+      "acceptedAnswers": [
+        "Доброе утро"
+      ],
+      "vocabularyKeys": [
+        "vocab.gunaydin"
+      ],
+      "payload": {
+        "options": [
+          "Доброе утро",
+          "До свидания",
+          "Спасибо",
+          "Пожалуйста"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a1.u1.l1.e6",
+      "type": "translateWord",
+      "orderIndex": 5,
+      "promptText": "Переведите на турецкий: До свидания (остающийся)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Güle güle",
+      "acceptedAnswers": [
+        "güle güle",
+        "Güle güle",
+        "Gule gule",
+        "gule gule"
+      ],
+      "vocabularyKeys": [
+        "vocab.gule-gule"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a1.u1.l1.e7",
+      "type": "matchPairs",
+      "orderIndex": 6,
+      "promptText": "Сопоставьте приветствия:",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.merhaba",
+        "vocab.selam",
+        "vocab.gunaydin",
+        "vocab.iyi-aksamlar"
+      ],
+      "payload": {
+        "pairs": [
+          {
+            "source": "Привет",
+            "target": "Merhaba"
+          },
+          {
+            "source": "Привет (неформ.)",
+            "target": "Selam"
+          },
+          {
+            "source": "Доброе утро",
+            "target": "Günaydın"
+          },
+          {
+            "source": "Добрый вечер",
+            "target": "İyi akşamlar"
+          }
+        ]
+      }
+    },
+    {
+      "key": "a1.u1.l1.e8",
+      "type": "translateWord",
+      "promptText": "Переведите на турецкий: До свидания",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Hoşça kal",
+      "acceptedAnswers": [
+        "Hoşça kal",
+        "hoşça kal",
+        "Hoşça kal!"
+      ],
+      "vocabularyKeys": [
+        "vocab.hoscakal"
+      ],
+      "payload": null,
+      "orderIndex": 7
+    }
+  ]
+}

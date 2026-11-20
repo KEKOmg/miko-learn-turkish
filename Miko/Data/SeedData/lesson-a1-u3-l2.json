@@ -1,0 +1,18 @@
+{
+  "key": "a1.u3.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a1.u3.l2.title",
+  "kind": "skill",
+  "unitKey": "a1.u3",
+  "vocabularyKeys": ["vocab.bu", "vocab.kitap", "vocab.defter", "vocab.masa", "vocab.kalem"],
+  "grammarKeys": ["grammar.sentence-order"],
+  "exercises": [
+    {"key":"a1.u3.l2.e1","type":"translateWord","orderIndex":0,"promptText":"Переведите на турецкий: Книга","promptKey":"","hintKey":"","correctAnswerText":"Kitap","acceptedAnswers":["kitap","Kitap"],"vocabularyKeys":["vocab.kitap"],"payload":null},
+    {"key":"a1.u3.l2.e2","type":"multipleChoice","orderIndex":1,"promptText":"Что значит «Kalem»?","promptKey":"","hintKey":"","correctAnswerText":"Ручка","acceptedAnswers":["Ручка","ручка"],"vocabularyKeys":["vocab.kalem"],"payload":{"options":["Ручка","Книга","Стол","Тетрадь"],"correctIndex":0}},
+    {"key":"a1.u3.l2.e3","type":"buildSentence","orderIndex":2,"promptText":"Составьте предложение: Это книга","promptKey":"","hintKey":"","correctAnswerText":"Bu bir kitap","acceptedAnswers":["Bu bir kitap","bu bir kitap","Bu bir kitap."],"vocabularyKeys":["vocab.bu","vocab.bir","vocab.kitap"],"payload":{"wordBank":["Bu","bir","kitap","kalem","masa"],"sentenceWords":["Bu","bir","kitap"]}},
+    {"key":"a1.u3.l2.e4","type":"translateWord","orderIndex":3,"promptText":"Переведите на турецкий: Тетрадь","promptKey":"","hintKey":"","correctAnswerText":"Defter","acceptedAnswers":["defter","Defter"],"vocabularyKeys":["vocab.defter"],"payload":null},
+    {"key":"a1.u3.l2.e5","type":"matchPairs","orderIndex":4,"promptText":"Сопоставьте предметы в классе:","promptKey":"","hintKey":"","correctAnswerText":"","acceptedAnswers":[],"vocabularyKeys":["vocab.kitap","vocab.defter","vocab.masa","vocab.kalem"],"payload":{"pairs":[{"source":"Книга","target":"Kitap"},{"source":"Тетрадь","target":"Defter"},{"source":"Стол","target":"Masa"},{"source":"Ручка","target":"Kalem"}]}},
+    {"key":"a1.u3.l2.e6","type":"listeningComprehension","orderIndex":5,"promptText":"Прослушайте и выберите перевод:","promptKey":"","hintKey":"","correctAnswerText":"Это тетрадь.","acceptedAnswers":["Это тетрадь.","Это тетрадь"],"vocabularyKeys":["vocab.bu","vocab.defter"],"payload":{"audioFileName":"bu-bir-defter.mp3","transcript":"Bu bir defter.","options":["Это тетрадь.","Это книга.","Это стол.","Это ручка."],"correctIndex":0}},
+    {"key":"a1.u3.l2.e7","type":"vocabularyReview","orderIndex":6,"promptText":"Повторите слова из класса...","promptKey":"","hintKey":"","correctAnswerText":"","acceptedAnswers":[],"vocabularyKeys":["vocab.bu","vocab.kitap","vocab.defter","vocab.masa","vocab.kalem"],"payload":null}
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "key": "a2.u1.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a2.u1.l2.title",
+  "kind": "skill",
+  "unitKey": "a2.u1",
+  "vocabularyKeys": [
+    "vocab.araba",
+    "vocab.anahtar",
+    "vocab.canta",
+    "vocab.telefon",
+    "vocab.oda",
+    "vocab.pencere",
+    "vocab.kapi",
+    "vocab.resim",
+    "vocab.lamba",
+    "vocab.hali"
+  ],
+  "grammarKeys": [
+    "grammar.genitive-chain"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u1.l2.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Anahtar»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Ключ",
+      "acceptedAnswers": [
+        "Ключ",
+        "ключ"
+      ],
+      "vocabularyKeys": [
+        "vocab.anahtar"
+      ],
+      "payload": {
+        "options": [
+          "Ключ",
+          "Окно",
+          "Дверь",
+          "Сумка"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u1.l2.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: Машина",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Araba",
+      "acceptedAnswers": [
+        "Araba",
+        "araba"
+      ],
+      "vocabularyKeys": [
+        "vocab.araba"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u1.l2.e3",
+      "type": "fillBlank",
+      "orderIndex": 2,
+      "promptText": "Заполните пропуск: Bu annemin ____. (Это мамина машина.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "arabası",
+      "acceptedAnswers": [
+        "Arabası",
+        "arabası"
+      ],
+      "vocabularyKeys": [
+        "vocab.araba"
+      ],
+      "payload": {
+        "template": "Bu annemin ____.",
+        "blank": "arabası",
+        "options": [
+          "arabası",
+          "kitabı",
+          "kedisi",
+          "odası"
+        ]
+      }
+    },
+    {
+      "key": "a2.u1.l2.e4",
+      "type": "multipleChoice",
+      "orderIndex": 3,
+      "promptText": "Как сказать «комната папы»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Babanın odası",
+      "acceptedAnswers": [
+        "Babanın odası",
+        "babanın odası"
+      ],
+      "vocabularyKeys": [
+        "vocab.oda"
+      ],
+      "payload": {
+        "options": [
+          "Babanın odası",
+          "Babanın kapısı",
+          "Odanın babası",
+          "Baba odası"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u1.l2.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Kapı anahtarı masada.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Ключ от двери на столе.",
+      "acceptedAnswers": [
+        "Ключ от двери на столе.",
+        "ключ от двери на столе"
+      ],
+      "vocabularyKeys": [
+        "vocab.kapi",
+        "vocab.anahtar"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u1.l2.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Телефон в сумке.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Telefon çantada.",
+      "acceptedAnswers": [
+        "Telefon çantada.",
+        "telefon çantada"
+      ],
+      "vocabularyKeys": [
+        "vocab.telefon",
+        "vocab.canta"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Telefon",
+          "çantada."
+        ],
+        "wordBank": [
+          "çantada.",
+          "Telefon",
+          "masada",
+          "kapıda"
+        ]
+      }
+    },
+    {
+      "key": "a2.u1.l2.e7",
+      "type": "pronunciation",
+      "orderIndex": 6,
+      "promptText": "Произнесите фразу:",
+      "promptKey": "",
+      "hintKey": "pen-che-re-nin e-nuen-de lam-ba var",
+      "correctAnswerText": "Pencerenin önünde lamba var.",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.pencere",
+        "vocab.lamba"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u1.l2.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова о доме...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.araba",
+        "vocab.anahtar",
+        "vocab.canta",
+        "vocab.telefon",
+        "vocab.oda",
+        "vocab.pencere",
+        "vocab.kapi",
+        "vocab.resim",
+        "vocab.lamba",
+        "vocab.hali"
+      ],
+      "payload": null
+    }
+  ]
+}

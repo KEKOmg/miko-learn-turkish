@@ -1,0 +1,9 @@
+{
+  "key": "a1.u5",
+  "orderIndex": 4,
+  "titleKey": "unit.a1.u5.title",
+  "theme": "family-people",
+  "summaryKey": "unit.a1.u5.summary",
+  "levelKey": "a1",
+  "lessonKeys": ["a1.u5.l1", "a1.u5.l2"]
+}

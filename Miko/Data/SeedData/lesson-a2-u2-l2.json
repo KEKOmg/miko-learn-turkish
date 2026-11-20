@@ -1,0 +1,201 @@
+{
+  "key": "a2.u2.l2",
+  "orderIndex": 1,
+  "titleKey": "lesson.a2.u2.l2.title",
+  "kind": "skill",
+  "unitKey": "a2.u2",
+  "vocabularyKeys": [
+    "vocab.sabah",
+    "vocab.ogle",
+    "vocab.aksam",
+    "vocab.gece",
+    "vocab.dakika",
+    "vocab.erken",
+    "vocab.gec",
+    "vocab.simdi",
+    "vocab.sonra",
+    "vocab.once"
+  ],
+  "grammarKeys": [
+    "grammar.clock-time"
+  ],
+  "exercises": [
+    {
+      "key": "a2.u2.l2.e1",
+      "type": "multipleChoice",
+      "orderIndex": 0,
+      "promptText": "Что значит «Erken»?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Рано",
+      "acceptedAnswers": [
+        "Рано",
+        "рано"
+      ],
+      "vocabularyKeys": [
+        "vocab.erken"
+      ],
+      "payload": {
+        "options": [
+          "Рано",
+          "Поздно",
+          "Сейчас",
+          "Потом"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u2.l2.e2",
+      "type": "translateWord",
+      "orderIndex": 1,
+      "promptText": "Переведите на турецкий: вечер",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Akşam",
+      "acceptedAnswers": [
+        "Akşam",
+        "akşam",
+        "Aksam"
+      ],
+      "vocabularyKeys": [
+        "vocab.aksam"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u2.l2.e3",
+      "type": "fillBlank",
+      "orderIndex": 2,
+      "promptText": "Заполните пропуск: Sabah yediden ____ kalkıyorum. (Утром встаю до семи.)",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "önce",
+      "acceptedAnswers": [
+        "Önce",
+        "önce"
+      ],
+      "vocabularyKeys": [
+        "vocab.once",
+        "vocab.sabah"
+      ],
+      "payload": {
+        "template": "Sabah yediden ____ kalkıyorum.",
+        "blank": "önce",
+        "options": [
+          "önce",
+          "sonra",
+          "şimdi",
+          "geç"
+        ]
+      }
+    },
+    {
+      "key": "a2.u2.l2.e4",
+      "type": "multipleChoice",
+      "orderIndex": 3,
+      "promptText": "«Saat kaç?» — какой вопрос?",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Который час?",
+      "acceptedAnswers": [
+        "Который час?",
+        "который час?"
+      ],
+      "vocabularyKeys": [],
+      "payload": {
+        "options": [
+          "Который час?",
+          "Который день?",
+          "Сколько времени ушло?",
+          "Когда придёшь?"
+        ],
+        "correctIndex": 0
+      }
+    },
+    {
+      "key": "a2.u2.l2.e5",
+      "type": "translateSentence",
+      "orderIndex": 4,
+      "promptText": "Переведите: Akşam saat sekizde gel.",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Приходи вечером в восемь.",
+      "acceptedAnswers": [
+        "Приходи вечером в восемь.",
+        "приходи вечером в восемь"
+      ],
+      "vocabularyKeys": [
+        "vocab.aksam"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u2.l2.e6",
+      "type": "buildSentence",
+      "orderIndex": 5,
+      "promptText": "Соберите предложение: «Сейчас полдень.»",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "Şimdi öğle.",
+      "acceptedAnswers": [
+        "Şimdi öğle.",
+        "şimdi öğle"
+      ],
+      "vocabularyKeys": [
+        "vocab.simdi",
+        "vocab.ogle"
+      ],
+      "payload": {
+        "sentenceWords": [
+          "Şimdi",
+          "öğle."
+        ],
+        "wordBank": [
+          "Şimdi",
+          "öğle.",
+          "gece",
+          "sabah"
+        ]
+      }
+    },
+    {
+      "key": "a2.u2.l2.e7",
+      "type": "pronunciation",
+      "orderIndex": 6,
+      "promptText": "Произнесите фразу:",
+      "promptKey": "",
+      "hintKey": "ya-ryn sa-bah er-ken kal-ka-jym",
+      "correctAnswerText": "Yarın sabah erken kalkacağım.",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.sabah",
+        "vocab.erken"
+      ],
+      "payload": null
+    },
+    {
+      "key": "a2.u2.l2.e8",
+      "type": "vocabularyReview",
+      "orderIndex": 7,
+      "promptText": "Повторите слова о времени...",
+      "promptKey": "",
+      "hintKey": "",
+      "correctAnswerText": "",
+      "acceptedAnswers": [],
+      "vocabularyKeys": [
+        "vocab.sabah",
+        "vocab.ogle",
+        "vocab.aksam",
+        "vocab.gece",
+        "vocab.dakika",
+        "vocab.erken",
+        "vocab.gec",
+        "vocab.simdi",
+        "vocab.sonra",
+        "vocab.once"
+      ],
+      "payload": null
+    }
+  ]
+}

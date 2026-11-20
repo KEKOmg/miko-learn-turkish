@@ -1,0 +1,210 @@
+[
+  {
+    "key": "grammar.personal-pronouns",
+    "titleKey": "grammar.personal-pronouns.title",
+    "explanationKey": "grammar.personal-pronouns.explanation",
+    "examples": [
+      "Ben öğrenciyim. (Я студент.)",
+      "Sen Türkçe öğreniyorsun. (Ты учишь турецкий.)",
+      "O öğretmen. (Он/она учитель.)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.sentence-order",
+    "titleKey": "grammar.sentence-order.title",
+    "explanationKey": "grammar.sentence-order.explanation",
+    "examples": [
+      "Ben çay içiyorum. (Я пью чай.)",
+      "Ben kitap okuyorum. (Я читаю книгу.)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.present-tense",
+    "titleKey": "grammar.present-tense.title",
+    "explanationKey": "grammar.present-tense.explanation",
+    "examples": [
+      "Ben öğreniyorum. (Я учусь.)",
+      "Sen çalışıyorsun. (Ты работаешь.)",
+      "O geliyor. (Он/она приходит.)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.question-words",
+    "titleKey": "grammar.question-words.title",
+    "explanationKey": "grammar.question-words.explanation",
+    "examples": [
+      "Ne? (Что?)",
+      "Kim? (Кто?)",
+      "Nerede? (Где?)",
+      "Nasıl? (Как?)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.copula-suffixes",
+    "titleKey": "grammar.copula-suffixes.title",
+    "explanationKey": "grammar.copula-suffixes.explanation",
+    "examples": [
+      "Ben doktorum. (Я врач.)",
+      "Sen doktorsun. (Ты врач.)",
+      "O doktor. (Он/она врач.)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.vowel-harmony",
+    "titleKey": "grammar.vowel-harmony.title",
+    "explanationKey": "grammar.vowel-harmony.explanation",
+    "examples": [
+      "ev → evde (дома)",
+      "kitap → kitapta (в книге)",
+      "okul → okulda (в школе)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.possessive-suffixes",
+    "titleKey": "grammar.possessive-suffixes.title",
+    "explanationKey": "grammar.possessive-suffixes.explanation",
+    "examples": [
+      "annem (моя мама)",
+      "babam (мой папа)",
+      "ailem (моя семья)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.var-yok",
+    "titleKey": "grammar.var-yok.title",
+    "explanationKey": "grammar.var-yok.explanation",
+    "examples": [
+      "Bir kardeşim var. (У меня есть брат или сестра.)",
+      "Biletim yok. (У меня нет билета.)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.locative-case",
+    "titleKey": "grammar.locative-case.title",
+    "explanationKey": "grammar.locative-case.explanation",
+    "examples": [
+      "Minsk'te yaşıyorum. (Я живу в Минске.)",
+      "Ankara Türkiye'de. (Анкара находится в Турции.)",
+      "Minsk Belarus'ta. (Минск находится в Беларуси.)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.direction-cases",
+    "titleKey": "grammar.direction-cases.title",
+    "explanationKey": "grammar.direction-cases.explanation",
+    "examples": [
+      "İstanbul'a gidiyorum. (Я еду в Стамбул.)",
+      "Minsk'ten geliyorum. (Я еду из Минска.)",
+      "Belarus'tan Türkiye'ye gidiyorum. (Я еду из Беларуси в Турцию.)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.polite-imperative",
+    "titleKey": "grammar.polite-imperative.title",
+    "explanationKey": "grammar.polite-imperative.explanation",
+    "examples": [
+      "Düz gidin. (Идите прямо.)",
+      "Sağa dönün. (Поверните направо.)",
+      "Sola dönün. (Поверните налево.)"
+    ],
+    "cefr": "a1"
+  },
+  {
+    "key": "grammar.genitive-chain",
+    "titleKey": "grammar.genitive-chain.title",
+    "explanationKey": "grammar.genitive-chain.explanation",
+    "examples": [
+      "annemin arabası (машина мамы)",
+      "öğretmenin kitabı (книга учителя)",
+      "Benim adım Ali."
+    ],
+    "cefr": "a2"
+  },
+  {
+    "key": "grammar.clock-time",
+    "titleKey": "grammar.clock-time.title",
+    "explanationKey": "grammar.clock-time.explanation",
+    "examples": [
+      "Saat kaç? — Saat üç.",
+      "Saat yedide kalkıyorum.",
+      "Sabah sekizde işe gidiyorum."
+    ],
+    "cefr": "a2"
+  },
+  {
+    "key": "grammar.present-continuous",
+    "titleKey": "grammar.present-continuous.title",
+    "explanationKey": "grammar.present-continuous.explanation",
+    "examples": [
+      "Yağmur yağıyor.",
+      "Ben kitap okuyorum.",
+      "Hava ısınıyor."
+    ],
+    "cefr": "a2"
+  },
+  {
+    "key": "grammar.comparison-daha",
+    "titleKey": "grammar.comparison-daha.title",
+    "explanationKey": "grammar.comparison-daha.explanation",
+    "examples": [
+      "Yaz, kıştan daha sıcak.",
+      "Bugün dünden daha güzel.",
+      "En sevdiğim mevsim bahar."
+    ],
+    "cefr": "a2"
+  },
+  {
+    "key": "grammar.wish-want",
+    "titleKey": "grammar.wish-want.title",
+    "explanationKey": "grammar.wish-want.explanation",
+    "examples": [
+      "Kebap yemek istiyorum.",
+      "Sinemaya gitmek istiyor musun?",
+      "Bir şey içmek istemiyorum."
+    ],
+    "cefr": "a2"
+  },
+  {
+    "key": "grammar.accusative-case",
+    "titleKey": "grammar.accusative-case.title",
+    "explanationKey": "grammar.accusative-case.explanation",
+    "examples": [
+      "Bu filmi seviyorum.",
+      "Kitabı okuyorum.",
+      "Arkadaşımı görüyorum."
+    ],
+    "cefr": "a2"
+  },
+  {
+    "key": "grammar.plural-suffix",
+    "titleKey": "grammar.plural-suffix.title",
+    "explanationKey": "grammar.plural-suffix.explanation",
+    "examples": [
+      "kitap → kitaplar",
+      "gömlekler çok pahalı",
+      "Çocuklar parkta oynuyor."
+    ],
+    "cefr": "a2"
+  },
+  {
+    "key": "grammar.body-ailments",
+    "titleKey": "grammar.body-ailments.title",
+    "explanationKey": "grammar.body-ailments.explanation",
+    "examples": [
+      "Başım ağrıyor.",
+      "Dişim ağrıyor.",
+      "Midem bozuk."
+    ],
+    "cefr": "a2"
+  }
+]
